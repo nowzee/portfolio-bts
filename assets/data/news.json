@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-04-19T13:35:41.947936+00:00",
+  "generated_at": "2026-04-19T19:10:24.436102+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Vercel confirms breach as hackers claim to be selling stolen data",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-confirms-breach-as-hackers-claim-to-be-selling-stolen-data/",
+      "summary": "Cloud development platform Vercel has disclosed a security incident after threat actors claimed to have breached its systems and are attempting to sell stolen data. [...]",
+      "date": "2026-04-19",
+      "date_iso": "2026-04-19T17:32:45+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Apple account change alerts abused to send phishing emails",
+      "url": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
+      "summary": "Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing legitimacy and potentially allowing them to bypass spam filters. [...]",
+      "date": "2026-04-19",
+      "date_iso": "2026-04-19T16:03:01+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "NIST to stop rating non-priority flaws due to volume increase",
+      "url": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
+      "summary": "The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]",
+      "date": "2026-04-19",
+      "date_iso": "2026-04-19T14:17:43+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
     {
       "title": "Critical flaw in Protobuf library enables JavaScript code execution",
       "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
@@ -102,15 +129,6 @@
       "category": "cve"
     },
     {
-      "title": "Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
-      "summary": "In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability. [...]",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T14:01:11+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
       "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
       "summary": "Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the exploitation of three vulnerabilities that…",
@@ -129,15 +147,6 @@
       "category": "actualite"
     },
     {
-      "title": "Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
-      "summary": "Cyberattacks are evolving faster than many MSP and corporate defenses can keep up, with phishing driving much of today's cybercrime. Join our upcoming webinar to learn how to combine security and recovery strategies to reduce risk and…",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T12:20:28+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
       "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
       "summary": "Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24.9 million accounts in…",
@@ -145,15 +154,6 @@
       "date_iso": "2026-04-17T10:47:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
-      "summary": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T09:30:15+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
     },
     {
       "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
