@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog – Louis PERROUX</title>
+  <meta name="description" content="Blog & writeups CTF de Louis PERROUX : forensic, reverse engineering, cybersécurité.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Accueil">Insomnia</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="mailto:insomnia@0xinsomnia.me">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="section">
+    <div class="container">
+      <p class="kicker">$ blog</p>
+      <h1 class="section-title">Articles</h1>
+      <p class="lead">Bienvenue sur mon blog. J'y partage mes conseils et ma passion avec <span class="heart" aria-hidden="true">❤️</span></p>
+
+      <section class="work blog-list" aria-label="Liste d'articles">
+        <div class="grid">
+          <!-- Articles à venir -->
+        </div>
+      </section>
+
+      <div class="container mt-10p">
+        <h2 class="section-title">Writeups – CTF</h2>
+        <p class="lead">Quelques writeups de CTF auxquels j'ai participé.</p>
+
+        <section class="work blog-list" aria-label="Writeups CTF">
+          <div class="grid">
+
+            <article class="card reveal">
+              <figure class="card-banner">
+                <img src="assets/img/citrouille.jpg" alt="Bannière Alice In Ransomland" loading="lazy">
+              </figure>
+              <h3 class="article-title">Alice_In_Rans0ml4nd</h3>
+              <p>Mon writeup de mon propre challenge – qualifications ECW 2025</p>
+              <div class="actions">
+                <a href="blog/alice_in_ransomland.html" aria-label="Lire le writeup Alice_In_Rans0ml4nd">Lire l'article</a>
+              </div>
+            </article>
+
+            <article class="card reveal">
+              <figure class="card-banner">
+                <img src="assets/img/MIDNIGHT_2026_banner.png" style="object-position: center 10%;" loading="lazy" alt="Bannière Ghost in the git">
+              </figure>
+              <h3 class="article-title">Gh0st_1n_7h3_G1t</h3>
+              <p>Mon writeup de mon propre challenge – qualifications MIDNIGHT FLAG 2026</p>
+              <div class="actions">
+                <a href="blog/ghost_in_the_git.html" aria-label="Lire le writeup Gh0st_1n_7h3_G1t">Lire l'article</a>
+              </div>
+            </article>
+
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-note">Made with <span class="heart" aria-hidden="true">❤️</span> by <strong>Insomnia</strong> • <span id="year"></span></p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-social">
+          <li><a class="social-link" href="https://github.com/nowzee" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg></a></li>
+          <li><a class="social-link" href="https://www.root-me.org/Open-860163" target="_blank" rel="noopener" aria-label="Root-Me"><img src="assets/img/rootme.svg" alt="rootme" width="24" height="24"></a></li>
+          <li><a class="social-link" href="mailto:insomnia@0xinsomnia.me" aria-label="Email"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

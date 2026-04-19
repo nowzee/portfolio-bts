@@ -1,0 +1,366 @@
+{
+  "generated_at": "2026-04-19T10:20:08.955299+00:00",
+  "count": 40,
+  "items": [
+    {
+      "title": "Critical flaw in Protobuf library enables JavaScript code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
+      "summary": "Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers. [...]",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T15:09:44+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Microsoft Teams right-click paste broken by Edge update bug",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/",
+      "summary": "Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client. [...]",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T14:11:21+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support",
+      "url": "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/",
+      "summary": "NAKIVO Inc. announced the general availability of NAKIVO Backup & Replication v11.2, focused on fast, reliable, and proactive data protection. [...]",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T13:45:54+00:00",
+      "source": "BleepingComputer",
+      "category": "ransomware"
+    },
+    {
+      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50…",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T08:07:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+      "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+      "summary": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell…",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T07:59:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+      "url": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+      "summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.…",
+      "date": "2026-04-18",
+      "date_iso": "2026-04-18T06:01:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "How NIST's Cutback of CVE Handling Impacts Cyber Teams",
+      "url": "https://www.darkreading.com/threat-intelligence/nist-cutbacks-nvd-handling-impacts-cyber-teams",
+      "summary": "Industry and ad hoc coalitions appear poised to help fill the gap created by NIST's decision to cut back on CVE data enrichment.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T19:51:57+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Payouts King ransomware uses QEMU VMs to bypass endpoint security",
+      "url": "https://www.bleepingcomputer.com/news/security/payouts-king-ransomware-uses-qemu-vms-to-bypass-endpoint-security/",
+      "summary": "The Payouts King ransomware is using the QEMU emulator as a reverse SSH backdoor to run hidden virtual machines on compromised systems and bypass endpoint security. [...]",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T19:10:19+00:00",
+      "source": "BleepingComputer",
+      "category": "ransomware"
+    },
+    {
+      "title": "Tycoon 2FA Phishers Scatter, Adopt Device Code Phishing",
+      "url": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
+      "summary": "In embracing device code phishing, attackers trick victims into handing over account access by using a service's legitimate new-device login flow.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T19:05:51+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Grinex exchange blames \"Western intelligence\" for $13.7M crypto hack",
+      "url": "https://www.bleepingcomputer.com/news/security/grinex-exchange-blames-western-intelligence-for-137m-crypto-hack/",
+      "summary": "Kyrgyzstan-based cryptocurrency exchange Grinex has suspended its operations after suffering a $13.7 million hack attributed to Western intelligence agencies. [...]",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T15:08:53+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Every Old Vulnerability Is Now an AI Vulnerability",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/every-old-vulnerability-ai-vulnerability",
+      "summary": "AI's danger isn't that it's creating new bugs, it's that it's amplifying old ones.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T14:47:18+00:00",
+      "source": "Dark Reading",
+      "category": "cve"
+    },
+    {
+      "title": "Inside an Underground Guide: How Threat Actors Vet Stolen Credit Card Shops",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-an-underground-guide-how-threat-actors-vet-stolen-credit-card-shops/",
+      "summary": "In cybercrime markets, trust isn't assumed, it's verified. Flare reveals how underground guides teach actors to evaluate carding shops based on data quality, reputation, and survivability. [...]",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T14:01:11+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
+      "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
+      "summary": "Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the exploitation of three vulnerabilities that…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T13:21:00+00:00",
+      "source": "The Hacker News",
+      "category": "outil"
+    },
+    {
+      "title": "Coast Guard's New Cybersecurity Rules Offers Lessons for CISOs",
+      "url": "https://www.darkreading.com/cybersecurity-operations/coast-guards-cybersecurity-rules-lessons-cisos",
+      "summary": "The Maritime Transportation Security Act (MTSA) requires plans to protect OT systems, audits by independent third parties, and a hybrid OT-security role.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T13:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Webinar: From phishing to fallout — Why MSPs must rethink both security and recovery",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-from-phishing-to-fallout-why-msps-must-rethink-both-security-and-recovery/",
+      "summary": "Cyberattacks are evolving faster than many MSP and corporate defenses can keep up, with phishing driving much of today's cybercrime. Join our upcoming webinar to learn how to combine security and recovery strategies to reduce risk and…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T12:20:28+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
+      "url": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
+      "summary": "Google this week announced a new set of Play policy updates to strengthen user privacy and protect businesses against fraud, even as it revealed it blocked or removed over 8.3 billion ads globally and suspended 24.9 million accounts in…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T10:47:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "CISA flags Apache ActiveMQ flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-apache-activemq-flaw-as-actively-exploited-in-attacks/",
+      "summary": "CISA warned that attackers are now exploiting a high-severity Apache ActiveMQ vulnerability, which was patched earlier this month after going undetected for 13 years. [...]",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T09:30:15+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
+      "url": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
+      "summary": "The National Institute of Standards and Technology (NIST) has announced changes to the way it handles cybersecurity vulnerabilities and exposures (CVEs) listed in its National Vulnerability Database (NVD), stating it will only enrich…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T07:14:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
+      "url": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
+      "summary": "An international law enforcement operation has taken down 53 domains and arrested four people in connection with commercial distributed denial-of-service (DDoS) operations that were used by more than 75,000 cybercriminals. The ongoing…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T05:46:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+      "url": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "summary": "A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T03:22:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
+      "url": "https://isc.sans.edu/diary/rss/32906",
+      "summary": "",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T02:00:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Lumma Stealer infection with Sectop RAT (ArechClient2), (Fri, Apr 17th)",
+      "url": "https://isc.sans.edu/diary/rss/32904",
+      "summary": "Introduction",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T00:30:27+00:00",
+      "source": "SANS ISC",
+      "category": "malware"
+    },
+    {
+      "title": "NIST Revamps CVE Framework to Focus on High-Impact Vulnerabilities",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/nist-revamps-cve-framework-to-focus-on-high-impact-vulnerabilities",
+      "summary": "The National Institute of Standards and Technology carved a new path for vulnerability remediation by changing the way it prioritizes software flaws.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T21:47:31+00:00",
+      "source": "Dark Reading",
+      "category": "cve"
+    },
+    {
+      "title": "North Korea Uses ClickFix to Target macOS Users' Data",
+      "url": "https://www.darkreading.com/application-security/north-korea-clickfix-target-macos-users-data",
+      "summary": "Sapphire Sleet uses fake job offers and phony Zoom updates to deliver ClickFix attacks that steal credentials and sensitive data from Macs.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T19:42:45+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "&#x5b;Guest Diary&#x5d; Compromised DVRs and Finding Them in the Wild, (Thu, Apr 16th)",
+      "url": "https://isc.sans.edu/diary/rss/32886",
+      "summary": "&#;x26;#;x5b;This is a Guest Diary by Alec Jaffe, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T19:20:29+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "'Harmless' Global Adware Transforms Into an AV Killer",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/harmless-global-adware-av-killer",
+      "summary": "A benign looking update Dragon Boss pushed out in March 2025 established persistence via scheduled tasks and arranged for future payloads to be excluded from Windows Defender.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T19:07:26+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Two-Factor Authentication Breaks Free from the Desktop",
+      "url": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
+      "summary": "Threat actors know how to bypass security systems outside of traditional IT environments. Implementing 2FA could provide a needed extra security barrier in the physical world.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T15:28:15+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, April 16th, 2026 https://isc.sans.edu/podcastdetail/9894, (Thu, Apr 16th)",
+      "url": "https://isc.sans.edu/diary/rss/32902",
+      "summary": "",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T02:00:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, April 15th, 2026 https://isc.sans.edu/podcastdetail/9892, (Wed, Apr 15th)",
+      "url": "https://isc.sans.edu/diary/rss/32900",
+      "summary": "",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T02:00:02+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Scanning for AI Models, (Tue, Apr 14th)",
+      "url": "https://isc.sans.edu/diary/rss/32896",
+      "summary": "Starting March 10, 2026, my DShield sensor started getting probe for various AI models such as claude, openclaw, huggingface, etc. Reviewing the data already reported by other DShield sensors to ISC, the DShield database shows reporting…",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T00:19:53+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Patch Tuesday, April 2026 Edition",
+      "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender…",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T21:47:59+00:00",
+      "source": "Krebs on Security",
+      "category": "cve"
+    },
+    {
+      "title": "Microsoft Patch Tuesday April 2026., (Tue, Apr 14th)",
+      "url": "https://isc.sans.edu/diary/rss/32898",
+      "summary": "This month&#;x26;#;39;s Microsoft Patch Tuesday looks like a record one, but let&#;x26;#;39;s look at it a bit closer to understand what is happening",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T17:46:09+00:00",
+      "source": "SANS ISC",
+      "category": "cve"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, April 14th, 2026 https://isc.sans.edu/podcastdetail/9890, (Tue, Apr 14th)",
+      "url": "https://isc.sans.edu/diary/rss/32894",
+      "summary": "",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T02:00:02+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Apache Tomcat (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0418/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de…",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Desktop App (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0419/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Desktop App. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Microsoft (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0420/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0421/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à…",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0422/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0423/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et un déni de service à distance.",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM (10 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0424/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
+      "date": "2026-04-10",
+      "date_iso": "2026-04-10T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    }
+  ]
+}

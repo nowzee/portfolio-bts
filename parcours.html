@@ -3,207 +3,241 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Parcours – Portfolio BTS</title>
-  <meta name="description" content="Parcours de formation et expériences professionnelles dans le cadre du BTS.">
+  <title>Parcours – Louis PERROUX</title>
+  <meta name="description" content="Formation, expériences professionnelles et certifications de Louis PERROUX (BTS SIO SLAM).">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html">portfolio</a>
+      <a class="brand" href="index.html" aria-label="Accueil">Insomnia</a>
       <nav class="nav" aria-label="Navigation principale">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
         <ul id="nav-list" class="nav-list">
           <li><a href="index.html">Accueil</a></li>
-          <li><a class="active" href="parcours.html">Parcours</a></li>
-          <li><a href="veille.html">Veille</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
           <li><a href="competences.html">Compétences</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="mailto:insomnia@0xinsomnia.me">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="section">
-      <div class="container">
-        <p class="kicker reveal">// formation &amp; expériences</p>
-        <h1 class="hero-title reveal" style="font-size:clamp(1.8rem,1.6rem+1.5vw,2.6rem);">Mon parcours</h1>
-        <p class="veille-intro reveal delay-1">
-          Récapitulatif de ma formation, de mes stages et de mes expériences professionnelles.
-          Mon objectif : intégrer une licence professionnelle ou un Bachelor en cybersécurité après le BTS,
-          puis évoluer vers un poste d'analyste SOC ou de pentester.
-        </p>
+  <main id="content" class="section">
+    <div class="container">
+      <p class="kicker">$ parcours</p>
+      <h1 class="section-title">Mon parcours</h1>
+      <p class="lead">Formation, expériences professionnelles et certifications dans le cadre de mon BTS SIO option SLAM à l'ESNA Bretagne.</p>
 
-        <div class="parcours-tabs reveal delay-2" role="tablist">
-          <button class="tab-btn active" data-tab="formation" role="tab">Formation</button>
-          <button class="tab-btn" data-tab="experiences" role="tab">Expériences</button>
-          <button class="tab-btn" data-tab="certifications" role="tab">Certifications</button>
-        </div>
-
-        <!-- ============ FORMATION ============ -->
-        <div class="tab-panel active" id="formation" role="tabpanel">
-          <ol class="timeline" aria-label="Formation">
-
-            <li class="timeline-item current reveal">
-              <p class="timeline-date">2024 – 2026 • en cours</p>
-              <h3 class="timeline-title">BTS SIO – option SISR</h3>
-              <p class="timeline-place">Lycée [Nom du lycée] – [Ville]</p>
-              <p class="timeline-desc">
-                Brevet de Technicien Supérieur Services Informatiques aux Organisations,
-                option Solutions d'Infrastructure, Systèmes et Réseaux.
-                Formation orientée administration système, réseaux, virtualisation et cybersécurité.
-              </p>
-              <ul class="timeline-tags">
-                <li>Windows Server</li><li>Linux</li><li>Cisco</li><li>Cybersécurité</li><li>Virtualisation</li>
-              </ul>
-            </li>
-
-            <li class="timeline-item reveal delay-1">
-              <p class="timeline-date">2023 – 2024</p>
-              <h3 class="timeline-title">Baccalauréat Général – Spécialités NSI &amp; Maths</h3>
-              <p class="timeline-place">Lycée [Nom] – [Ville]</p>
-              <p class="timeline-desc">
-                Mention [Bien / Très bien]. Grand oral sur la sécurité des objets connectés.
-                Découverte de l'algorithmique, de Python et des bases de la programmation orientée objet.
-              </p>
-              <ul class="timeline-tags">
-                <li>Python</li><li>Algorithmique</li><li>SQL</li><li>Mathématiques</li>
-              </ul>
-            </li>
-
-            <li class="timeline-item reveal delay-2">
-              <p class="timeline-date">2020 – 2023</p>
-              <h3 class="timeline-title">Lycée – Cycle général</h3>
-              <p class="timeline-place">Lycée [Nom] – [Ville]</p>
-              <p class="timeline-desc">
-                Premières années de lycée jusqu'à l'obtention du baccalauréat.
-                Premières découvertes de l'informatique en autodidacte (Linux, scripting bash).
-              </p>
-            </li>
-
-            <li class="timeline-item reveal">
-              <p class="timeline-date">2016 – 2020</p>
-              <h3 class="timeline-title">Brevet des collèges</h3>
-              <p class="timeline-place">Collège [Nom] – [Ville]</p>
-              <p class="timeline-desc">Diplôme National du Brevet, mention [Bien].</p>
-            </li>
-
-          </ol>
-        </div>
-
-        <!-- ============ EXPERIENCES ============ -->
-        <div class="tab-panel" id="experiences" role="tabpanel">
-          <ol class="timeline" aria-label="Expériences professionnelles">
-
-            <li class="timeline-item reveal">
-              <p class="timeline-date">Mai – Juin 2025 • Stage 2 (5 semaines)</p>
-              <h3 class="timeline-title">Stage – Administration système &amp; sécurité</h3>
-              <p class="timeline-place">[Nom de l'entreprise] – [Ville]</p>
-              <p class="timeline-desc">
-                Mise en place d'une supervision avec un SIEM (ELK), durcissement de serveurs Linux,
-                rédaction de procédures pour le SOC. Participation à la mise à jour de la documentation
-                technique et réponse à un incident de phishing simulé.
-              </p>
-              <ul class="timeline-tags">
-                <li>ELK</li><li>Linux</li><li>Hardening</li><li>SOC</li><li>Documentation</li>
-              </ul>
-            </li>
-
-            <li class="timeline-item reveal delay-1">
-              <p class="timeline-date">Mai – Juin 2024 • Stage 1 (6 semaines)</p>
-              <h3 class="timeline-title">Stage – Support &amp; infrastructure</h3>
-              <p class="timeline-place">[Nom de l'entreprise] – [Ville]</p>
-              <p class="timeline-desc">
-                Découverte du métier de technicien systèmes &amp; réseaux : gestion de tickets,
-                déploiement de postes, configuration d'Active Directory et de GPO,
-                installation d'une nouvelle baie de switches.
-              </p>
-              <ul class="timeline-tags">
-                <li>Active Directory</li><li>GPO</li><li>GLPI</li><li>Cisco</li>
-              </ul>
-            </li>
-
-            <li class="timeline-item reveal delay-2">
-              <p class="timeline-date">2023 – 2024</p>
-              <h3 class="timeline-title">Projets personnels &amp; CTF</h3>
-              <p class="timeline-place">Autodidacte</p>
-              <p class="timeline-desc">
-                Participation régulière à des CTF (Root-Me, HackTheBox, TryHackMe) en
-                catégories web, forensic et reverse. Mise en place d'un homelab Proxmox
-                pour expérimenter Active Directory et différents outils de sécurité.
-              </p>
-              <ul class="timeline-tags">
-                <li>Root-Me</li><li>HackTheBox</li><li>Proxmox</li><li>Homelab</li>
-              </ul>
-            </li>
-
-          </ol>
-        </div>
-
-        <!-- ============ CERTIFICATIONS ============ -->
-        <div class="tab-panel" id="certifications" role="tabpanel">
-          <ol class="timeline" aria-label="Certifications">
-
-            <li class="timeline-item reveal">
-              <p class="timeline-date">Visée 2026</p>
-              <h3 class="timeline-title">SecNumacadémie – ANSSI</h3>
-              <p class="timeline-place">MOOC officiel de l'ANSSI</p>
-              <p class="timeline-desc">
-                Sensibilisation et formation aux fondamentaux de la sécurité numérique,
-                délivrée par l'Agence Nationale de la Sécurité des Systèmes d'Information.
-              </p>
-              <ul class="timeline-tags"><li>ANSSI</li><li>Fondamentaux</li></ul>
-            </li>
-
-            <li class="timeline-item reveal delay-1">
-              <p class="timeline-date">Visée 2026</p>
-              <h3 class="timeline-title">CCNA – Cisco Certified Network Associate</h3>
-              <p class="timeline-place">Cisco Networking Academy</p>
-              <p class="timeline-desc">
-                Certification réseau internationalement reconnue couvrant le routage, la commutation,
-                la sécurité réseau et l'automatisation.
-              </p>
-              <ul class="timeline-tags"><li>Réseau</li><li>Cisco</li></ul>
-            </li>
-
-            <li class="timeline-item reveal delay-2">
-              <p class="timeline-date">2024</p>
-              <h3 class="timeline-title">Pix – Niveau [X]</h3>
-              <p class="timeline-place">Plateforme nationale Pix</p>
-              <p class="timeline-desc">
-                Certification publique des compétences numériques (information, communication,
-                création de contenu, sécurité, environnement numérique).
-              </p>
-              <ul class="timeline-tags"><li>Numérique</li></ul>
-            </li>
-
-          </ol>
-        </div>
-
-        <p style="margin-top:2rem; color:var(--muted); font-size:.9rem;">
-          <em>Pense à remplacer les <code>[crochets]</code> par tes vraies informations
-          (lycée, ville, entreprises de stage, dates, mentions).</em>
-        </p>
+      <div class="parcours-tabs" role="tablist">
+        <button class="tab-btn active" data-tab="formation" role="tab">Formation</button>
+        <button class="tab-btn" data-tab="experiences" role="tab">Expériences</button>
+        <button class="tab-btn" data-tab="realisations" role="tab">Réalisations</button>
+        <button class="tab-btn" data-tab="certifications" role="tab">Certifications &amp; CTF</button>
       </div>
-    </section>
+
+      <!-- ============ FORMATION ============ -->
+      <div class="tab-panel active" id="formation" role="tabpanel">
+        <ol class="timeline" aria-label="Formation">
+
+          <li class="timeline-item current reveal">
+            <p class="timeline-date">2024 – 2026 • en cours</p>
+            <h3 class="timeline-title">BTS SIO – option SLAM (2ᵉ année)</h3>
+            <p class="timeline-place">ESNA – École Supérieure du Numérique Appliqué de Bretagne</p>
+            <p class="timeline-desc">
+              Brevet de Technicien Supérieur Services Informatiques aux Organisations,
+              option Solutions Logicielles et Applications Métiers. Formation orientée
+              développement (Python, Web), bases de données, gestion de projet et cybersécurité.
+              Réalisée en alternance.
+            </p>
+            <ul class="timeline-tags">
+              <li>Python</li><li>Flask</li><li>SQL</li><li>Cybersécurité</li><li>Alternance</li>
+            </ul>
+          </li>
+
+          <li class="timeline-item reveal delay-1">
+            <p class="timeline-date">2022 – 2024</p>
+            <h3 class="timeline-title">BAC PRO Systèmes Numériques – option RISC</h3>
+            <p class="timeline-place">Lycée Hippolyte Carnot, Roanne (42)</p>
+            <p class="timeline-desc">
+              Baccalauréat Professionnel Systèmes Numériques, option Réseaux Informatiques
+              et Systèmes Communicants. <strong>Mention Très Bien.</strong>
+              Premières bases en réseau, programmation, électronique et systèmes embarqués.
+            </p>
+            <ul class="timeline-tags">
+              <li>Réseau</li><li>Linux</li><li>Électronique</li><li>Mention TB</li>
+            </ul>
+          </li>
+
+        </ol>
+      </div>
+
+      <!-- ============ EXPERIENCES ============ -->
+      <div class="tab-panel" id="experiences" role="tabpanel">
+        <ol class="timeline" aria-label="Expériences professionnelles">
+
+          <li class="timeline-item current reveal">
+            <p class="timeline-date">Septembre 2024 – aujourd'hui • Alternance</p>
+            <h3 class="timeline-title">Alternant Développeur</h3>
+            <p class="timeline-place">PILLET-HITECH</p>
+            <p class="timeline-desc">
+              Développement de modules et applications métiers (Python, Odoo, Flask, portail captif Python).
+              Administration systèmes &amp; réseaux (Proxmox, pfSense, OpenVPN). Gestion de bases de données
+              et automatisation de tâches.
+            </p>
+            <ul class="timeline-tags">
+              <li>Python</li><li>Flask</li><li>Odoo</li><li>Proxmox</li><li>pfSense</li><li>OpenVPN</li>
+            </ul>
+          </li>
+
+          <li class="timeline-item reveal delay-1">
+            <p class="timeline-date">Avril – Mai 2024 • Stage</p>
+            <h3 class="timeline-title">Stagiaire Informatique</h3>
+            <p class="timeline-place">Fides-Solutions</p>
+            <p class="timeline-desc">
+              Maintenance informatique (installations, mises à jour). Support et gestion via GLPI.
+              Rédaction d'une documentation pour le déploiement de postes sur le MDT
+              (Microsoft Deployment Toolkit). Installation d'un second serveur MDT sur VMware ESXi.
+            </p>
+            <ul class="timeline-tags">
+              <li>GLPI</li><li>MDT</li><li>VMware ESXi</li><li>Documentation</li>
+            </ul>
+          </li>
+
+        </ol>
+      </div>
+
+      <!-- ============ REALISATIONS ============ -->
+      <div class="tab-panel" id="realisations" role="tabpanel">
+        <ol class="timeline" aria-label="Réalisations majeures">
+
+          <li class="timeline-item reveal">
+            <p class="timeline-date">2025</p>
+            <h3 class="timeline-title">Challenge Maker – European Cyber Week 2025</h3>
+            <p class="timeline-place">Qualifications ECW 2025</p>
+            <p class="timeline-desc">
+              Conception d'un challenge de forensic simulant un réseau Active Directory compromis,
+              avec post-exploitation, pivot et exfiltration de données.
+              Le writeup <em>Alice_In_Rans0ml4nd</em> est disponible sur le blog.
+            </p>
+            <ul class="timeline-tags">
+              <li>Forensic</li><li>Active Directory</li><li>Challenge maker</li><li>ECW</li>
+            </ul>
+          </li>
+
+          <li class="timeline-item reveal delay-1">
+            <p class="timeline-date">2024 – aujourd'hui</p>
+            <h3 class="timeline-title">Threatlab – Plateforme de gestion de honeypots</h3>
+            <p class="timeline-place">Projet personnel</p>
+            <p class="timeline-desc">
+              Serveur de gestion de honeypots remontant les mots de passe testés, IPs sources,
+              types d'attaques et pays d'origine. Permet la corrélation et l'envoi vers ELK / OpenCTI.
+            </p>
+            <ul class="timeline-tags">
+              <li>Python</li><li>Honeypot</li><li>ELK</li><li>OpenCTI</li>
+            </ul>
+          </li>
+
+          <li class="timeline-item reveal delay-2">
+            <p class="timeline-date">2024 – aujourd'hui</p>
+            <h3 class="timeline-title">Outil de forensic en Rust</h3>
+            <p class="timeline-place">Projet personnel</p>
+            <p class="timeline-desc">
+              Application Rust en ligne de commande pour analyser des logs, identifier des chemins
+              d'attaque potentiels, des vulnérabilités et des signes de compromission.
+            </p>
+            <ul class="timeline-tags">
+              <li>Rust</li><li>Forensic</li><li>CLI</li>
+            </ul>
+          </li>
+
+          <li class="timeline-item reveal">
+            <p class="timeline-date">2024</p>
+            <h3 class="timeline-title">RTERM – Terminal UI SSH</h3>
+            <p class="timeline-place">Projet personnel</p>
+            <p class="timeline-desc">
+              Application Rust + Tauri avec interface graphique pour gérer ses connexions SSH
+              (clés et identifiants).
+            </p>
+            <ul class="timeline-tags">
+              <li>Rust</li><li>Tauri</li><li>Vue</li><li>SSH</li>
+            </ul>
+          </li>
+
+        </ol>
+      </div>
+
+      <!-- ============ CERTIFICATIONS / CTF ============ -->
+      <div class="tab-panel" id="certifications" role="tabpanel">
+        <ol class="timeline" aria-label="CTF et certifications">
+
+          <li class="timeline-item current reveal">
+            <p class="timeline-date">en cours</p>
+            <h3 class="timeline-title">Root-Me – 5600+ points</h3>
+            <p class="timeline-place"><a class="link" href="https://www.root-me.org/Open-860163" target="_blank" rel="noopener">root-me.org/Open-860163</a></p>
+            <p class="timeline-desc">
+              Pratique régulière de challenges en cryptographie, web, forensic et reverse engineering.
+            </p>
+            <ul class="timeline-tags"><li>Reverse</li><li>Forensic</li><li>Web</li><li>Crypto</li></ul>
+          </li>
+
+          <li class="timeline-item reveal delay-1">
+            <p class="timeline-date">en cours</p>
+            <h3 class="timeline-title">HackTheBox &amp; TryHackMe</h3>
+            <p class="timeline-place">
+              <a class="link" href="https://tryhackme.com/p/unch3cked" target="_blank" rel="noopener">tryhackme.com/p/unch3cked</a>
+            </p>
+            <p class="timeline-desc">
+              Pratique offensive et défensive (machines, sherlocks, parcours guidés).
+              Préparation à long terme de la certification <strong>CDSA</strong> (HackTheBox).
+            </p>
+            <ul class="timeline-tags"><li>HTB</li><li>THM</li><li>Pentest</li></ul>
+          </li>
+
+          <li class="timeline-item reveal delay-2">
+            <p class="timeline-date">en cours</p>
+            <h3 class="timeline-title">CyberDefenders</h3>
+            <p class="timeline-place">
+              <a class="link" href="https://cyberdefenders.org/p/Insomnia" target="_blank" rel="noopener">cyberdefenders.org/p/Insomnia</a>
+            </p>
+            <p class="timeline-desc">
+              Labs orientés blue team : analyse d'incident, forensic, threat hunting.
+            </p>
+            <ul class="timeline-tags"><li>Blue Team</li><li>Forensic</li><li>SOC</li></ul>
+          </li>
+
+          <li class="timeline-item reveal">
+            <p class="timeline-date">visée long terme</p>
+            <h3 class="timeline-title">Certifications Offsec : OSED &amp; OSEE</h3>
+            <p class="timeline-place">Offensive Security</p>
+            <p class="timeline-desc">
+              Objectif à plus long terme : valider l'expertise en exploit development
+              (Windows user-land et kernel/exploitation avancée).
+            </p>
+            <ul class="timeline-tags"><li>Exploit Dev</li><li>Offsec</li></ul>
+          </li>
+
+        </ol>
+      </div>
+    </div>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>Portfolio BTS • <span id="year"></span> • Prénom Nom</p>
-      <ul class="footer-social" aria-label="Liens">
-        <li>
-          <a class="social-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg>
-          </a>
-        </li>
-        <li>
-          <a class="social-link" href="mailto:contact@example.com" aria-label="Email">
-            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
-          </a>
-        </li>
-      </ul>
+      <div class="footer-left">
+        <p class="footer-note">Made with <span class="heart" aria-hidden="true">❤️</span> by <strong>Insomnia</strong> • <span id="year"></span></p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-social">
+          <li><a class="social-link" href="https://github.com/nowzee" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg></a></li>
+          <li><a class="social-link" href="https://www.root-me.org/Open-860163" target="_blank" rel="noopener" aria-label="Root-Me"><img src="assets/img/rootme.svg" alt="rootme" width="24" height="24"></a></li>
+          <li><a class="social-link" href="mailto:insomnia@0xinsomnia.me" aria-label="Email"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg></a></li>
+        </ul>
+      </div>
     </div>
   </footer>
 

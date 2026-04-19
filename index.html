@@ -3,97 +3,210 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio BTS – Accueil</title>
-  <meta name="description" content="Portfolio BTS SIO/CIEL – présentation, veille technologique et compétences.">
+  <title>Portfolio – Louis PERROUX</title>
+  <meta name="description" content="Portfolio BTS SIO de Louis PERROUX – cybersécurité, reverse engineering, forensic, développement.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a class="brand" href="index.html">portfolio</a>
+      <a class="brand" href="index.html" aria-label="Accueil">Insomnia</a>
       <nav class="nav" aria-label="Navigation principale">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
         <ul id="nav-list" class="nav-list">
-          <li><a class="active" href="index.html">Accueil</a></li>
+          <li><a href="index.html">Accueil</a></li>
           <li><a href="parcours.html">Parcours</a></li>
-          <li><a href="veille.html">Veille</a></li>
           <li><a href="competences.html">Compétences</a></li>
+          <li><a href="veille.html">Veille</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="mailto:insomnia@0xinsomnia.me">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section class="section hero">
-      <div class="container">
-        <p class="kicker reveal">// bts • promotion 2024-2026</p>
-        <h1 class="hero-title reveal">Bonjour, je suis <strong>Prénom Nom</strong></h1>
+  <section id="hero" class="section hero flex-row">
+    <div class="container">
+      <h1 class="hero-title reveal" data-animate="letters">Salut, je suis Insomnia</h1>
+      <p class="hero-subtitle reveal delay-1">
+        Je suis <strong>Louis PERROUX</strong>, étudiant en BTS SIO option SLAM, passionné de
+        <strong>reverse engineering</strong>, <strong>analyse de malwares</strong>,
+        <strong>forensic</strong> et <strong>CTI</strong>. Je développe des outils open-source
+        en défensif pour l'analyse de menaces, et j'apprends aussi l'exploit development.
+      </p>
+      <div class="hero-cta reveal delay-2">
+        <a class="button" href="#work">Voir mes projets</a>
+      </div>
+    </div>
+    <img src="assets/img/black-cat-gif-downsized_large-4.gif" alt="Insomnia" loading="lazy" class="hero-avatar">
+  </section>
+
+  <section id="Whoami" class="section whoami-section">
+    <div class="container whoami-container">
+      <img src="assets/img/corro.svg" alt="corro" loading="lazy" class="whoami-avatar">
+      <div class="whoami-content">
+        <h2 class="section-title">Whoami</h2>
         <p class="hero-subtitle reveal delay-1">
-          Étudiant en BTS, passionné par la cybersécurité, le développement et l'administration système.
-          Ce portfolio regroupe ma <strong>veille technologique</strong> et mon <strong>tableau de compétences</strong>
-          dans le cadre de ma formation.
+          Je suis actuellement en BTS à l'<strong>ESNA de Bretagne</strong> et mon objectif est d'obtenir
+          la certification <strong>CDSA</strong> de HackTheBox, ainsi que les certifications
+          <strong>OSEE</strong> et <strong>OSED</strong> de Offsec en exploit development.
+          Je veux travailler plus tard dans le développement de malwares offensifs.<br><br>
+          Je travaille actuellement sur un projet appelé <strong>Threatlabs</strong> :
+          un SIEM dédié au threat hunting et à la détection de techniques ATT&amp;CK,
+          avec des honeypots avancés.<br>
+          Je participe régulièrement à des CTF (ECW, Root-Me, HTB, CTFtime), avec une préférence
+          pour le forensic et le reverse engineering. J'ai aussi été <strong>challenge maker forensic</strong>
+          pour les qualifications de l'<strong>ECW 2025</strong>.<br>
+          Passionné par l'univers cyberpunk, j'aime aussi les jeux comme Ark et Sea of Thieves.
         </p>
-        <div class="hero-cta reveal delay-2">
-          <a class="button" href="veille.html">
-            Voir ma veille
-            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-          <a class="button-outline" href="parcours.html">
-            Mon parcours
-          </a>
-          <a class="button-outline" href="competences.html">
-            Mes compétences
-          </a>
-        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title reveal">À propos</h2>
-        <p class="hero-subtitle reveal" style="max-width:75ch;">
-          Je suis actuellement en BTS et mon objectif est de me spécialiser dans la cybersécurité défensive
-          (SOC, analyse de menaces, forensic). Ce portfolio est mis à jour régulièrement avec
-          mes lectures, mes projets et l'évolution de mes compétences techniques.
-        </p>
-
-        <div class="summary-grid">
-          <article class="summary-card reveal">
-            <span class="icon-emoji">📡</span>
-            <h3>Veille technologique</h3>
-            <p>Suivi régulier des actualités cybersécurité : CVE, malwares, ransomwares, APT et nouveaux outils.</p>
-          </article>
-          <article class="summary-card reveal delay-1">
-            <span class="icon-emoji">🛠️</span>
-            <h3>Tableau de compétences</h3>
-            <p>Compétences techniques classées par domaine, avec niveau de maîtrise et téléchargement du tableau Excel.</p>
-          </article>
-          <article class="summary-card reveal delay-2">
-            <span class="icon-emoji">🎓</span>
-            <h3>Formation BTS</h3>
-            <p>Documents et travaux réalisés dans le cadre du BTS, en lien avec le référentiel de la formation.</p>
-          </article>
-        </div>
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2 class="section-title">Compétences</h2>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-banner"><span class="skill-category">Sécurité</span></div>
+          <div class="skill-content">
+            <h3>Reverse Engineering &amp; Analyse de malwares</h3>
+            <p>Binary Ninja, Ghidra, x64dbg, jadx, APKtool, Dex2jar</p>
+          </div>
+        </article>
+        <article class="skill-card reveal delay-1">
+          <div class="skill-banner"><span class="skill-category">Renseignement</span></div>
+          <div class="skill-content">
+            <h3>CTI &amp; Threat Hunting</h3>
+            <p>MISP, OpenCTI, MITRE ATT&amp;CK, analyse de threat intelligence</p>
+          </div>
+        </article>
+        <article class="skill-card reveal delay-2">
+          <div class="skill-banner"><span class="skill-category">Investigation</span></div>
+          <div class="skill-content">
+            <h3>Forensic numérique</h3>
+            <p>Memory forensics, analyse PCAP, disk forensics, Volatility, Android, Windows et Linux</p>
+          </div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-banner"><span class="skill-category">Développement</span></div>
+          <div class="skill-content">
+            <h3>Programmation</h3>
+            <p>Python, Rust, Web (Flask, Vue.js), envie d'apprendre l'assembleur ;)</p>
+          </div>
+        </article>
+        <article class="skill-card reveal delay-1">
+          <div class="skill-banner"><span class="skill-category">Offensif</span></div>
+          <div class="skill-content">
+            <h3>Exploit Development</h3>
+            <p>Binary exploitation, instrumentation Frida, debugging</p>
+          </div>
+        </article>
+        <article class="skill-card reveal delay-2">
+          <div class="skill-banner"><span class="skill-category">Réseau</span></div>
+          <div class="skill-content">
+            <h3>Sécurité réseau</h3>
+            <p>Wireshark, Active Directory, honeypots, analyse de trafic, ELK et Splunk</p>
+          </div>
+        </article>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer class="site-footer">
+  <section id="work" class="section work">
+    <div class="container">
+      <h2 class="section-title">Projets</h2>
+      <div class="grid">
+        <article class="card reveal">
+          <figure class="card-banner">
+            <img src="assets/img/banner_threatlab.jpg" loading="lazy" alt="Threatlabs">
+          </figure>
+          <h3>Threatlabs</h3>
+          <p>ThreatLab est une plateforme pour déployer des honeypots, collecter de la télémétrie
+            (samples de malwares, IPs, types d'attaques et techniques), analyser, classifier
+            et envoyer les résultats vers ELK ou OpenCTI.</p>
+          <ul class="tags" aria-label="Technologies">
+            <li>rust (à venir)</li><li>honeypot</li><li>python</li><li>CTI</li>
+          </ul>
+          <div class="actions">
+            <a href="https://github.com/nowzee/Threatlab" target="_blank" rel="noopener">Voir le projet</a>
+          </div>
+        </article>
+
+        <article class="card reveal delay-1">
+          <figure class="card-banner">
+            <img src="assets/img/reverse_banner.jpg" loading="lazy" alt="Clank">
+          </figure>
+          <h3>Clank</h3>
+          <p>Clank est un outil CLI et UI qui s'intègre avec Binary Ninja et Frida pour le unpacking,
+            l'instrumentation, le debug et l'interception.</p>
+          <ul class="tags" aria-label="Outils">
+            <li>Binary Ninja</li><li>Frida</li><li>Python</li>
+          </ul>
+          <div class="actions">
+            <a href="#">Pas encore en développement…</a>
+          </div>
+        </article>
+
+        <article class="card reveal delay-2">
+          <figure class="card-banner">
+            <img src="assets/img/Monica.jpg" alt="Monica" loading="lazy">
+          </figure>
+          <h3>Monica</h3>
+          <p>Monica est un outil d'analyse de logs réseau (type Wireshark) pour identifier
+            des vulnérabilités, des chemins d'attaque et des compromissions.</p>
+          <ul class="tags" aria-label="Stack">
+            <li>Rust</li><li>CTI</li><li>Réseau</li><li>Active Directory</li>
+          </ul>
+          <div class="actions">
+            <a href="#" aria-label="Monica">En développement…</a>
+          </div>
+        </article>
+
+        <article class="card reveal delay-2">
+          <figure class="card-banner">
+            <img src="assets/img/rterm_banner.png" alt="RTERM" loading="lazy">
+          </figure>
+          <h3>RTERM</h3>
+          <p>RTERM est un outil pour gérer ses connexions SSH (clé et mot de passe),
+            écrit en Rust et basé sur Tauri.</p>
+          <ul class="tags" aria-label="Stack">
+            <li>Rust</li><li>Vue</li><li>TypeScript</li>
+          </ul>
+          <div class="actions">
+            <a href="https://github.com/nowzee/RTerm" target="_blank" rel="noopener" aria-label="rterm">Voir le projet</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
-      <p>Portfolio BTS • <span id="year"></span> • Prénom Nom</p>
-      <ul class="footer-social" aria-label="Liens">
-        <li>
-          <a class="social-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg>
-          </a>
-        </li>
-        <li>
-          <a class="social-link" href="mailto:contact@example.com" aria-label="Email">
-            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
-          </a>
-        </li>
-      </ul>
+      <div class="footer-left">
+        <p class="footer-note">Made with <span class="heart" aria-hidden="true">❤️</span> by <strong>Insomnia</strong> • <span id="year"></span></p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-social" aria-label="Réseaux sociaux et contacts">
+          <li>
+            <a class="social-link" href="https://github.com/nowzee" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path fill="currentColor" d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="https://www.root-me.org/Open-860163" target="_blank" rel="noopener" aria-label="Root-Me">
+              <img src="assets/img/rootme.svg" alt="rootme" loading="lazy" width="24" height="24">
+            </a>
+          </li>
+          <li>
+            <a class="social-link" href="mailto:insomnia@0xinsomnia.me" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="icon"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 
