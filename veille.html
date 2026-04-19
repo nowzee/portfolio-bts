@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veille technologique – Portfolio BTS</title>
+  <meta name="description" content="Veille technologique en cybersécurité : actualités, CVE, malwares, ransomwares, APT, outils.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">portfolio</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Menu">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="parcours.html">Parcours</a></li>
+          <li><a class="active" href="veille.html">Veille</a></li>
+          <li><a href="competences.html">Compétences</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <p class="kicker reveal">// veille technologique</p>
+        <h1 class="hero-title reveal" style="font-size:clamp(1.8rem,1.6rem+1.5vw,2.6rem);">Actualités cybersécurité</h1>
+        <p class="veille-intro reveal delay-1">
+          Sélection régulière d'articles, de CVE critiques et de tendances en cybersécurité.
+          Sources principales : <strong>BleepingComputer</strong>, <strong>The Hacker News</strong>,
+          <strong>ANSSI</strong>, <strong>CERT-FR</strong>, <strong>Krebs on Security</strong>.
+        </p>
+
+        <div class="filters reveal delay-2" role="tablist" aria-label="Filtrer la veille">
+          <button class="filter-btn active" data-filter="all">Tout</button>
+          <button class="filter-btn" data-filter="cve">CVE</button>
+          <button class="filter-btn" data-filter="malware">Malware</button>
+          <button class="filter-btn" data-filter="ransomware">Ransomware</button>
+          <button class="filter-btn" data-filter="apt">APT</button>
+          <button class="filter-btn" data-filter="outil">Outil</button>
+          <button class="filter-btn" data-filter="actualite">Actualité</button>
+        </div>
+
+        <div class="news-grid">
+
+          <article class="news-card reveal" data-category="cve">
+            <div class="news-meta">
+              <span class="news-date">2026-04-15</span>
+              <span class="news-tag cve">CVE</span>
+            </div>
+            <h3>CVE-2026-XXXX : élévation de privilèges critique sur Windows</h3>
+            <p>
+              Microsoft a publié un correctif pour une vulnérabilité critique permettant à un attaquant local
+              d'obtenir les privilèges SYSTEM. Score CVSS 8.8. Patch obligatoire pour les environnements
+              Active Directory.
+            </p>
+            <a class="news-source" href="https://msrc.microsoft.com/" target="_blank" rel="noopener">
+              Lire sur MSRC →
+            </a>
+          </article>
+
+          <article class="news-card reveal delay-1" data-category="ransomware">
+            <div class="news-meta">
+              <span class="news-date">2026-04-12</span>
+              <span class="news-tag ransomware">Ransomware</span>
+            </div>
+            <h3>Le groupe LockBit revendique une nouvelle attaque sur un acteur industriel français</h3>
+            <p>
+              Après le démantèlement partiel de l'opération Cronos, LockBit continue ses activités.
+              L'ANSSI rappelle les bonnes pratiques de sauvegarde 3-2-1 et la segmentation réseau.
+            </p>
+            <a class="news-source" href="https://www.cert.ssi.gouv.fr/" target="_blank" rel="noopener">
+              Lire sur CERT-FR →
+            </a>
+          </article>
+
+          <article class="news-card reveal delay-2" data-category="malware">
+            <div class="news-meta">
+              <span class="news-date">2026-04-10</span>
+              <span class="news-tag malware">Malware</span>
+            </div>
+            <h3>Nouveau loader « SilentRaven » distribué via des fausses extensions VS Code</h3>
+            <p>
+              Des chercheurs ont identifié un loader furtif diffusé sur le marketplace VS Code.
+              Il télécharge un infostealer ciblant les tokens GitHub et les credentials AWS.
+              Indicateurs de compromission disponibles sur GitHub.
+            </p>
+            <a class="news-source" href="https://thehackernews.com/" target="_blank" rel="noopener">
+              Lire sur The Hacker News →
+            </a>
+          </article>
+
+          <article class="news-card reveal" data-category="apt">
+            <div class="news-meta">
+              <span class="news-date">2026-04-08</span>
+              <span class="news-tag apt">APT</span>
+            </div>
+            <h3>APT28 cible des entités diplomatiques européennes via une campagne de phishing</h3>
+            <p>
+              Le groupe russe APT28 (Fancy Bear) a lancé une nouvelle campagne ciblée utilisant
+              des documents Office malveillants exploitant CVE-2025-XXXX. Mitre ATT&CK : T1566.001, T1059.001.
+            </p>
+            <a class="news-source" href="https://attack.mitre.org/groups/G0007/" target="_blank" rel="noopener">
+              Voir sur MITRE ATT&CK →
+            </a>
+          </article>
+
+          <article class="news-card reveal delay-1" data-category="outil">
+            <div class="news-meta">
+              <span class="news-date">2026-04-05</span>
+              <span class="news-tag outil">Outil</span>
+            </div>
+            <h3>Wireshark 5.0 : nouvelle interface et meilleures performances sur QUIC/HTTP3</h3>
+            <p>
+              La nouvelle version majeure améliore le décodage des protocoles modernes.
+              Très utile pour l'analyse de trafic chiffré et l'investigation forensic réseau.
+            </p>
+            <a class="news-source" href="https://www.wireshark.org/" target="_blank" rel="noopener">
+              Site officiel →
+            </a>
+          </article>
+
+          <article class="news-card reveal delay-2" data-category="actualite">
+            <div class="news-meta">
+              <span class="news-date">2026-04-02</span>
+              <span class="news-tag actualite">Actualité</span>
+            </div>
+            <h3>NIS2 : où en est la transposition en droit français ?</h3>
+            <p>
+              La directive NIS2 impose de nouvelles obligations aux entités essentielles et importantes.
+              L'ANSSI publie des guides pour aider les organisations à se mettre en conformité.
+            </p>
+            <a class="news-source" href="https://cyber.gouv.fr/nis2" target="_blank" rel="noopener">
+              Lire sur cyber.gouv.fr →
+            </a>
+          </article>
+
+          <article class="news-card reveal" data-category="cve">
+            <div class="news-meta">
+              <span class="news-date">2026-03-28</span>
+              <span class="news-tag cve">CVE</span>
+            </div>
+            <h3>CVE-2026-YYYY : RCE non authentifiée sur Apache Tomcat</h3>
+            <p>
+              Vulnérabilité critique (CVSS 9.1) permettant l'exécution de code à distance sans authentification.
+              Versions affectées : Tomcat 10.x &lt; 10.1.20. Mise à jour urgente recommandée.
+            </p>
+            <a class="news-source" href="https://tomcat.apache.org/security.html" target="_blank" rel="noopener">
+              Bulletin de sécurité Apache →
+            </a>
+          </article>
+
+          <article class="news-card reveal delay-1" data-category="malware">
+            <div class="news-meta">
+              <span class="news-date">2026-03-25</span>
+              <span class="news-tag malware">Malware</span>
+            </div>
+            <h3>Retour de Emotet sous une nouvelle forme</h3>
+            <p>
+              Le célèbre botnet refait surface avec une chaîne d'infection modernisée utilisant
+              des fichiers OneNote piégés. Vigilance accrue pour les équipes SOC.
+            </p>
+            <a class="news-source" href="https://www.bleepingcomputer.com/" target="_blank" rel="noopener">
+              Lire sur BleepingComputer →
+            </a>
+          </article>
+
+        </div>
+
+        <p style="margin-top:2rem; color:var(--muted); font-size:.9rem;">
+          <em>Cette veille est mise à jour régulièrement dans le cadre de mon BTS.
+          Pour proposer un sujet ou échanger : <a href="mailto:contact@example.com" style="color:var(--accent);">contact@example.com</a></em>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Portfolio BTS • <span id="year"></span> • Prénom Nom</p>
+      <ul class="footer-social" aria-label="Liens">
+        <li>
+          <a class="social-link" href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M12 .5C5.73.5.99 5.24.99 11.52c0 4.86 3.16 8.98 7.55 10.43.55.1.76-.24.76-.54 0-.27-.01-1.17-.02-2.12-3.07.67-3.72-1.31-3.72-1.31-.5-1.26-1.23-1.6-1.23-1.6-.99-.68.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.68 2.58 1.19 3.21.9.1-.71.38-1.19.69-1.46-2.45-.28-5.02-1.22-5.02-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.3 3.02 1.13a10.5 10.5 0 0 1 5.5 0c2.1-1.43 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.22-2.58 5.15-5.03 5.42.39.33.73.98.73 1.98 0 1.43-.01 2.58-.01 2.94 0 .3.2.64.77.53 4.38-1.45 7.54-5.56 7.54-10.42C23 5.24 18.27.5 12 .5Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a class="social-link" href="mailto:contact@example.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
