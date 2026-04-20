@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-04-20T14:14:16.369140+00:00",
+  "generated_at": "2026-04-20T19:35:09.788151+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Serial-to-IP Devices Hide Thousands of Old and New Bugs",
+      "url": "https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs",
+      "summary": "The OT devices that translate machine talk into Internet-speak are riddled with vulnerabilities and more frequently targeted for attacks, researchers say.",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T21:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Seiko USA website defaced as hacker claims customer data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
+      "summary": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T18:22:31+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+      "url": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+      "summary": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of…",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T17:14:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
+      "summary": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T15:11:24+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "WhatsApp Leaks User Metadata to Attackers",
+      "url": "https://www.darkreading.com/endpoint-security/whatsapp-leaks-user-metadata",
+      "summary": "Strangers can infer limited info about you without knowing or messaging you, which could theoretically aid certain kinds of malicious activity.",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T14:33:35+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
     {
       "title": "The backup myth that is putting businesses at risk",
       "url": "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
@@ -10,6 +55,15 @@
       "date_iso": "2026-04-20T14:01:11+00:00",
       "source": "BleepingComputer",
       "category": "ransomware"
+    },
+    {
+      "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
+      "url": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+      "summary": "Monday’s recap shows the same pattern in different places. A third-party tool becomes a way in, then leads to internal access. A trusted download path is briefly swapped to deliver malware. Browser extensions act normally while pulling…",
+      "date": "2026-04-20",
+      "date_iso": "2026-04-20T13:41:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
     },
     {
       "title": "British Scattered Spider hacker pleads guilty to crypto theft charges",
@@ -111,24 +165,6 @@
       "category": "actualite"
     },
     {
-      "title": "Apple account change alerts abused to send phishing emails",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-account-change-alerts-abused-to-send-phishing-emails/",
-      "summary": "Apple account change notifications are being abused to send fake iPhone purchase phishing scams within legitimate emails sent from Apple's servers, increasing legitimacy and potentially allowing them to bypass spam filters. [...]",
-      "date": "2026-04-19",
-      "date_iso": "2026-04-19T16:03:01+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "NIST to stop rating non-priority flaws due to volume increase",
-      "url": "https://www.bleepingcomputer.com/news/security/nist-to-stop-rating-non-priority-flaws-due-to-volume-increase/",
-      "summary": "The National Institute of Standards and Technology will stop assigning severity scores to lower-priority vulnerabilities due to the growing workload from rising submission volumes. [...]",
-      "date": "2026-04-19",
-      "date_iso": "2026-04-19T14:17:43+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
       "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
       "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50…",
@@ -145,15 +181,6 @@
       "date_iso": "2026-04-18T07:59:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
-      "url": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
-      "summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuard Labs and Palo Alto Networks Unit 42.…",
-      "date": "2026-04-18",
-      "date_iso": "2026-04-18T06:01:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "How NIST's Cutback of CVE Handling Impacts Cyber Teams",
@@ -181,15 +208,6 @@
       "date_iso": "2026-04-17T14:47:18+00:00",
       "source": "Dark Reading",
       "category": "cve"
-    },
-    {
-      "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
-      "url": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
-      "summary": "Huntress is warning that threat actors are exploiting three recently disclosed security flaws in Microsoft Defender to gain elevated privileges in compromised systems. The activity involves the exploitation of three vulnerabilities that…",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T13:21:00+00:00",
-      "source": "The Hacker News",
-      "category": "outil"
     },
     {
       "title": "Coast Guard's New Cybersecurity Rules Offer Lessons for CISOs",
@@ -243,24 +261,6 @@
       "date": "2026-04-16",
       "date_iso": "2026-04-16T19:20:29+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "'Harmless' Global Adware Transforms Into an AV Killer",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/harmless-global-adware-av-killer",
-      "summary": "A benign looking update Dragon Boss pushed out in March 2025 established persistence via scheduled tasks and arranged for future payloads to be excluded from Windows Defender.",
-      "date": "2026-04-16",
-      "date_iso": "2026-04-16T19:07:26+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Two-Factor Authentication Breaks Free from the Desktop",
-      "url": "https://www.darkreading.com/endpoint-security/two-factor-authentication-breaks-free-from-the-desktop",
-      "summary": "Threat actors know how to bypass security systems outside of traditional IT environments. Implementing 2FA could provide a needed extra security barrier in the physical world.",
-      "date": "2026-04-16",
-      "date_iso": "2026-04-16T15:28:15+00:00",
-      "source": "Dark Reading",
       "category": "actualite"
     },
     {
