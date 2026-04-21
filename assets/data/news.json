@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-04-21T08:09:29.180605+00:00",
+  "generated_at": "2026-04-21T14:10:20.639639+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction",
+      "url": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
+      "summary": "Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T14:02:12+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
+      "summary": "Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM). [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T13:49:10+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
+      "url": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
+      "summary": "Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage.…",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T13:00:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+      "url": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+      "summary": "Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. \"The threat actors took the app, which is used…",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T12:45:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+      "summary": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T12:30:50+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Chinese APT Targets Indian Banks, Korean Policy Circles",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-indian-banks-korean-policy",
+      "summary": "China is spying on India's financial sector, for some reason, and it's not putting much effort into it, judging by some stale TTPs.",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T12:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
+      "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+      "summary": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed:…",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T11:30:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
+      "url": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
+      "summary": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T11:17:51+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
+      "url": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+      "summary": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since patched, combines Antigravity's…",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T10:22:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
+      "summary": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T10:12:21+00:00",
+      "source": "BleepingComputer",
+      "category": "ransomware"
+    },
+    {
+      "title": "NGate Android malware uses HandyPay NFC app to steal card data",
+      "url": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
+      "summary": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T09:00:00+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
     {
       "title": "A .WAV With A Payload, (Tue, Apr 21st)",
       "url": "https://isc.sans.edu/diary/rss/32910",
@@ -50,37 +149,19 @@
     {
       "title": "Vercel Employee's AI Tool Access Led to Data Breach",
       "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
-      "summary": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher noted.",
+      "summary": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher notes.",
       "date": "2026-04-20",
       "date_iso": "2026-04-20T21:01:31+00:00",
       "source": "Dark Reading",
       "category": "actualite"
     },
     {
-      "title": "Serial-to-IP Devices Hide Thousands of Old and New Bugs",
+      "title": "Serial-to-IP Devices Hide Thousands of Old &amp; New Bugs",
       "url": "https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs",
       "summary": "The OT devices that translate machine talk into Internet-speak are riddled with vulnerabilities and more frequently targeted for attacks, researchers say.",
       "date": "2026-04-20",
       "date_iso": "2026-04-20T21:00:00+00:00",
       "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
-      "summary": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang affiliate. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T20:02:37+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
-      "title": "Seiko USA website defaced as hacker claims customer data theft",
-      "url": "https://www.bleepingcomputer.com/news/security/seiko-usa-website-defaced-as-hacker-claims-customer-data-theft/",
-      "summary": "The Seiko USA website was defaced over the weekend, displaying a message from attackers claiming they stole its Shopify customer database and threatening to leak it unless a ransom is paid. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T18:22:31+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -93,15 +174,6 @@
       "category": "cve"
     },
     {
-      "title": "Microsoft: Teams increasingly abused in helpdesk impersonation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-increasingly-abused-in-helpdesk-impersonation-attacks/",
-      "summary": "Microsoft is warning of threat actors increasingly abusing external Microsoft Teams collaboration and relying on legitimate tools for access and lateral movement on enterprise networks. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T15:11:24+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "WhatsApp Leaks User Metadata to Attackers",
       "url": "https://www.darkreading.com/endpoint-security/whatsapp-leaks-user-metadata",
       "summary": "Strangers can infer limited info about you without knowing or messaging you, which could theoretically aid certain kinds of malicious activity.",
@@ -109,15 +181,6 @@
       "date_iso": "2026-04-20T14:33:35+00:00",
       "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "The backup myth that is putting businesses at risk",
-      "url": "https://www.bleepingcomputer.com/news/security/the-backup-myth-that-is-putting-businesses-at-risk/",
-      "summary": "Backups protect data, but don't keep your business running during downtime. Datto shows why BCDR is essential to keep operations running during ransomware and outages. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T14:01:11+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
     },
     {
       "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
@@ -129,24 +192,6 @@
       "category": "malware"
     },
     {
-      "title": "British Scattered Spider hacker pleads guilty to crypto theft charges",
-      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-pleads-guilty-to-crypto-theft-charges/",
-      "summary": "A British man, believed to be the leader of the Scattered Spider cybercrime collective, has pleaded guilty in the United States to charges of wire fraud and aggravated identity theft. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T13:33:42+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft tests Windows Explorer speed, performance improvements",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-file-explorer-speed-performance-improvements/",
-      "summary": "Microsoft is rolling out multiple File Explorer changes to Windows 11 users in the Insider program, including improvements to launch speed and performance. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T12:04:02+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Why Most AI Deployments Stall After the Demo",
       "url": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
       "summary": "The fastest way to fall in love with an AI tool is to watch the demo. Everything moves quickly. Prompts land cleanly. The system produces impressive outputs in seconds. It feels like the beginning of a new era for your team. But most AI…",
@@ -154,24 +199,6 @@
       "date_iso": "2026-04-20T11:30:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-      "url": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-      "summary": "Cybersecurity researchers have discovered a critical \"by design\" weakness in the Model Context Protocol's (MCP) architecture that could pave the way for remote code execution and have a cascading effect on the artificial intelligence (AI)…",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T10:42:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
-      "url": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
-      "summary": "Cybersecurity researchers have flagged a new malware called ZionSiphon that appears to be specifically designed to target Israeli water treatment and desalination systems. The malware has been codenamed ZionSiphon by Darktrace,…",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T07:34:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
     },
     {
       "title": "Handling the CVE Flood With EPSS, (Mon, Apr 20th)",
@@ -183,30 +210,12 @@
       "category": "cve"
     },
     {
-      "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
-      "url": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
-      "summary": "Web infrastructure provider Vercel has disclosed a security breach that allows bad actors to gain unauthorized access to \"certain\" internal Vercel systems. The incident stemmed from the compromise of Context.ai, a third-party artificial…",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T03:35:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
       "title": "ISC Stormcast For Monday, April 20th, 2026 https://isc.sans.edu/podcastdetail/9898, (Mon, Apr 20th)",
       "url": "https://isc.sans.edu/diary/rss/32912",
       "summary": "",
       "date": "2026-04-20",
       "date_iso": "2026-04-20T02:00:03+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
-      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not phishing. Not weak passwords. Unmanaged non-human identities that nobody was watching. For every employee in your org, there are 40 to 50…",
-      "date": "2026-04-18",
-      "date_iso": "2026-04-18T08:07:00+00:00",
-      "source": "The Hacker News",
       "category": "actualite"
     },
     {
@@ -264,15 +273,6 @@
       "category": "malware"
     },
     {
-      "title": "NIST Revamps CVE Framework to Focus on High-Impact Vulnerabilities",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/nist-revamps-cve-framework-to-focus-on-high-impact-vulnerabilities",
-      "summary": "The National Institute of Standards and Technology is carving a new path for vulnerability remediation by changing the way it prioritizes software flaws.",
-      "date": "2026-04-16",
-      "date_iso": "2026-04-16T21:47:31+00:00",
-      "source": "Dark Reading",
-      "category": "cve"
-    },
-    {
       "title": "&#x5b;Guest Diary&#x5d; Compromised DVRs and Finding Them in the Wild, (Thu, Apr 16th)",
       "url": "https://isc.sans.edu/diary/rss/32886",
       "summary": "&#;x26;#;x5b;This is a Guest Diary by Alec Jaffe, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].",
@@ -318,29 +318,29 @@
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans Python (13 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0426/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Python. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "date": "2026-04-13",
-      "date_iso": "2026-04-13T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans les produits Siemens (14 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0432/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans Microsoft Edge (13 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0427/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un contournement de la politique de sécurité et un problème de sécurité non spécifié par l'éditeur.",
-      "date": "2026-04-13",
-      "date_iso": "2026-04-13T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans les produits Schneider Electric (14 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0433/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Schneider Electric. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Microsoft (13 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0428/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "date": "2026-04-13",
-      "date_iso": "2026-04-13T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans les produits SAP (14 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0434/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
+      "date": "2026-04-14",
+      "date_iso": "2026-04-14T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
