@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-04-21T03:46:30.078911+00:00",
+  "generated_at": "2026-04-21T08:09:29.180605+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "A .WAV With A Payload, (Tue, Apr 21st)",
+      "url": "https://isc.sans.edu/diary/rss/32910",
+      "summary": "There have been reports of threat actors using a .wav file as a vector for malware.",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T07:14:56+00:00",
+      "source": "SANS ISC",
+      "category": "malware"
+    },
+    {
+      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing…",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T06:23:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
       "url": "https://isc.sans.edu/diary/rss/32916",
@@ -192,15 +210,6 @@
       "category": "actualite"
     },
     {
-      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
-      "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
-      "summary": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 million hack. The exchange said it fell…",
-      "date": "2026-04-18",
-      "date_iso": "2026-04-18T07:59:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
       "title": "How NIST's Cutback of CVE Handling Impacts Cyber Teams",
       "url": "https://www.darkreading.com/threat-intelligence/nist-cutbacks-nvd-handling-impacts-cyber-teams",
       "summary": "Industry and ad hoc coalitions appear poised to help fill the gap created by NIST's decision to cut back on CVE data enrichment.",
@@ -278,15 +287,6 @@
       "summary": "",
       "date": "2026-04-16",
       "date_iso": "2026-04-16T02:00:03+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, April 15th, 2026 https://isc.sans.edu/podcastdetail/9892, (Wed, Apr 15th)",
-      "url": "https://isc.sans.edu/diary/rss/32900",
-      "summary": "",
-      "date": "2026-04-15",
-      "date_iso": "2026-04-15T02:00:02+00:00",
       "source": "SANS ISC",
       "category": "actualite"
     },
