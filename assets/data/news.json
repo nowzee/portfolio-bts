@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-04-22T08:07:14.186400+00:00",
+  "generated_at": "2026-04-22T14:11:01.290873+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
+      "summary": "Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage \"Caller-as-a-Service\" operations like a professional sales team. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T14:01:11+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
+      "url": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
+      "summary": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T12:57:42+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
+      "summary": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T12:24:38+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
+      "url": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
+      "summary": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper, the novel file wiper has been used in a…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T10:55:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
+      "url": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+      "summary": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T10:41:36+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft traces Universal Print issues to Graph API code change",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
+      "summary": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T10:15:09+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "New GoGra malware for Linux uses Microsoft Graph API for comms",
+      "url": "https://www.bleepingcomputer.com/news/security/new-gogra-malware-for-linux-uses-microsoft-graph-api-for-comms/",
+      "summary": "A Linux variant of the GoGra backdoor uses legitimate Microsoft infrastructure, relying on an Outlook inbox for stealthy payload delivery. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T10:00:00+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
+    {
+      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
+      "url": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+      "summary": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0.…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T09:29:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Microsoft releases emergency patches for critical ASP.NET flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-security-updates-for-critical-aspnet-flaw/",
+      "summary": "Microsoft has released out-of-band (OOB) security updates to patch a critical ASP.NET Core privilege escalation vulnerability. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T08:08:16+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
+      "url": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
+      "summary": "Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector. \"The backdoor communicates with a dynamic DNS-based command-and-control server…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T07:58:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
+      "url": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+      "summary": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752, is rated 9.3 on the CVSS scoring system. \"Sandbox…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T07:16:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
       "url": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
@@ -41,29 +140,20 @@
     {
       "title": "Ransomware Negotiator Pleads Guilty to BlackCat Scheme",
       "url": "https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme",
-      "summary": "A cautionary tale illustrates why the person negotiating should never be involved with any part of the ransom payment process, experts noted.",
+      "summary": "A cautionary tale illustrates why the person negotiating should never be involved with any part of the ransom payment process.",
       "date": "2026-04-21",
       "date_iso": "2026-04-21T21:12:43+00:00",
       "source": "Dark Reading",
       "category": "ransomware"
     },
     {
-      "title": "Exploits Turn Windows Defender into Attacker Tool",
+      "title": "Exploits Turn Windows Defender Into Attacker Tool",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/exploits-turn-windows-defender-attacker-tool",
       "summary": "Three proof-of-concept exploits are being used in active attacks against Microsoft's built-in security platform; two are unpatched.",
       "date": "2026-04-21",
       "date_iso": "2026-04-21T19:12:40+00:00",
       "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
-      "url": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
-      "summary": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T18:38:40+00:00",
-      "source": "BleepingComputer",
-      "category": "malware"
     },
     {
       "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
@@ -93,9 +183,9 @@
       "category": "cve"
     },
     {
-      "title": "Google Fixes Critical RCE Flaw in AI-Based Antigravity Tool",
+      "title": "Google Fixes Critical RCE Flaw in AI-Based 'Antigravity' Tool",
       "url": "https://www.darkreading.com/vulnerabilities-threats/google-fixes-critical-rce-flaw-ai-based-antigravity-tool",
-      "summary": "The prompt injection vulnerability in the agentic AI product for filesystem operations was a sanitization issue that allowed for sandbox escape and arbitrary code execution.",
+      "summary": "The prompt-injection vulnerability in the agentic AI product for filesystem operations was a sanitization issue that allowed for sandbox escape and arbitrary code execution.",
       "date": "2026-04-21",
       "date_iso": "2026-04-21T15:00:50+00:00",
       "source": "Dark Reading",
@@ -120,51 +210,6 @@
       "category": "ransomware"
     },
     {
-      "title": "Stopping Fraud at Each Stage of the Customer Journey Without Adding Friction",
-      "url": "https://www.bleepingcomputer.com/news/security/stopping-fraud-at-each-stage-of-the-customer-journey-without-adding-friction/",
-      "summary": "Fraud prevention and user experience don't have to be a tradeoff. IPQS shows how combining identity, device, and network signals stops fraud without adding friction. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T14:02:12+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "UK probes Telegram, teen chat sites over CSAM sharing concerns",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-probes-telegram-teen-chat-sites-over-csam-sharing-concerns/",
-      "summary": "Ofcom, the United Kingdom's independent communications regulator, has launched an investigation into Telegram based on evidence suggesting it's being used to share child sexual abuse material (CSAM). [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T13:49:10+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
-      "url": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
-      "summary": "Security teams often present MTTR as an internal KPI. Leadership sees it differently: every hour a threat dwells inside the environment is an hour of potential data exfiltration, service disruption, regulatory exposure, and brand damage.…",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T13:00:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
-      "url": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
-      "summary": "Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. \"The threat actors took the app, which is used…",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T12:45:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
-      "summary": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T12:30:50+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "Chinese APT Targets Indian Banks, Korean Policy Circles",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-indian-banks-korean-policy",
       "summary": "China is spying on India's financial sector, for some reason, and it's not putting much effort into it, judging by some stale TTPs.",
@@ -174,42 +219,6 @@
       "category": "actualite"
     },
     {
-      "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
-      "url": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
-      "summary": "The cybersecurity industry has spent the last several years chasing sophisticated threats like zero-days, supply chain compromises, and AI-generated exploits. However, the most reliable entry point for attackers still hasn't changed:…",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T11:30:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Actively exploited Apache ActiveMQ flaw impacts 6,400 servers",
-      "url": "https://www.bleepingcomputer.com/news/security/actively-exploited-apache-activemq-flaw-impacts-6-400-servers/",
-      "summary": "Nonprofit security organization Shadowserver found that over 6,400 Apache ActiveMQ servers exposed online are vulnerable to ongoing attacks exploiting a high-severity code injection vulnerability. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T11:17:51+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
-      "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
-      "url": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
-      "summary": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since patched, combines Antigravity's…",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T10:22:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/former-ransomware-negotiator-pleads-guilty-to-blackcat-attacks/",
-      "summary": "41-year-old Angelo Martino, a former employee of cybersecurity incident response company DigitalMint, has pleaded guilty to targeting U.S. companies in BlackCat (ALPHV) ransomware attacks in 2023. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T10:12:21+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
       "title": "A .WAV With A Payload, (Tue, Apr 21st)",
       "url": "https://isc.sans.edu/diary/rss/32910",
       "summary": "There have been reports of threat actors using a .wav file as a vector for malware.",
@@ -217,15 +226,6 @@
       "date_iso": "2026-04-21T07:14:56+00:00",
       "source": "SANS ISC",
       "category": "malware"
-    },
-    {
-      "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
-      "url": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added eight new vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including three flaws impacting Cisco Catalyst SD-WAN Manager, citing…",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T06:23:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
@@ -300,67 +300,67 @@
       "category": "malware"
     },
     {
-      "title": "Patch Tuesday, April 2026 Edition",
-      "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "summary": "Microsoft today pushed software updates to fix a staggering 167 security vulnerabilities in its Windows operating systems and related software, including a SharePoint Server zero-day and a publicly disclosed weakness in Windows Defender…",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T21:47:59+00:00",
-      "source": "Krebs on Security",
-      "category": "cve"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Python (14 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0430/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Python. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un problème de sécurité non spécifié par l'éditeur.",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans Drupal (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0447/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et une injection de code indirecte à distance (XSS).",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans Synology SSL VPN Client (14 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0431/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Synology SSL VPN Client. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans Google Chrome (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0448/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Siemens (14 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0432/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Siemens. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T00:00:00+00:00",
+      "title": "Vulnérabilité dans Apache Kafka (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0449/",
+      "summary": "Une vulnérabilité a été découverte dans Apache Kafka. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "date": "2026-04-16",
+      "date_iso": "2026-04-16T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits Schneider Electric (14 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0433/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Schneider Electric. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une…",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans Microsoft Azure (15 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0444/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans les produits SAP (14 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0434/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits SAP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
-      "date": "2026-04-14",
-      "date_iso": "2026-04-14T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans les produits Microsoft (15 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0445/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Vulnérabilité dans Adobe Acrobat (13 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0429/",
-      "summary": "Une vulnérabilité a été découverte dans Adobe Acrobat. Elle permet à un attaquant de provoquer une exécution de code arbitraire. Adobe indique que la vulnérabilité CVE-2026-34621 est activement exploitée.",
-      "date": "2026-04-13",
-      "date_iso": "2026-04-13T00:00:00+00:00",
+      "title": "Multiples vulnérabilités dans les produits Fortinet (15 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0440/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
-      "category": "cve"
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (15 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0436/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité…",
+      "date": "2026-04-15",
+      "date_iso": "2026-04-15T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
     }
   ]
 }
