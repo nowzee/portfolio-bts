@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-22T03:43:25.743039+00:00",
+  "generated_at": "2026-04-22T08:07:14.186400+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Over 1,300 Microsoft SharePoint servers vulnerable to spoofing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/over-1-300-microsoft-sharepoint-servers-vulnerable-to-ongoing-attacks/",
+      "summary": "Over 1,300 Microsoft SharePoint servers exposed online remain unpatched against a spoofing vulnerability that was exploited as a zero-day and is still being abused in ongoing attacks. [...]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T06:53:02+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
     {
       "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
       "url": "https://isc.sans.edu/diary/rss/32918",
@@ -199,15 +208,6 @@
       "date_iso": "2026-04-21T10:12:21+00:00",
       "source": "BleepingComputer",
       "category": "ransomware"
-    },
-    {
-      "title": "NGate Android malware uses HandyPay NFC app to steal card data",
-      "url": "https://www.bleepingcomputer.com/news/security/ngate-android-malware-uses-handypay-nfc-app-to-steal-card-data/",
-      "summary": "A new variant of the NGate malware that steals NFC payment data is targeting Android users by hiding in a trojanized version of HandyPay, a legitimate mobile payments processing tool. [...]",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T09:00:00+00:00",
-      "source": "BleepingComputer",
-      "category": "malware"
     },
     {
       "title": "A .WAV With A Payload, (Tue, Apr 21st)",
