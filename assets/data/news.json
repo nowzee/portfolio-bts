@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-04-21T19:38:29.416559+00:00",
+  "generated_at": "2026-04-22T03:43:25.743039+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/32918",
+      "summary": "",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T02:00:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "&#x5b;Guest Diary&#x5d; Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/32888",
+      "summary": "&#;x26;#;x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].]",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T00:03:04+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "French govt agency confirms breach as hacker offers to sell data",
+      "url": "https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/",
+      "summary": "France Titres, the government agency in France for issuing and managince administrative documents has disclosed a data breach after a threat actor claimed the attack and stealing citizen data. [...]",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T21:46:04+00:00",
+      "source": "BleepingComputer",
+      "category": "apt"
+    },
+    {
+      "title": "Ransomware Negotiator Pleads Guilty to BlackCat Scheme",
+      "url": "https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme",
+      "summary": "A cautionary tale illustrates why the person negotiating should never be involved with any part of the ransom payment process, experts noted.",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T21:12:43+00:00",
+      "source": "Dark Reading",
+      "category": "ransomware"
+    },
+    {
+      "title": "Exploits Turn Windows Defender into Attacker Tool",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/exploits-turn-windows-defender-attacker-tool",
+      "summary": "Three proof-of-concept exploits are being used in active attacks against Microsoft's built-in security platform; two are unpatched.",
+      "date": "2026-04-21",
+      "date_iso": "2026-04-21T19:12:40+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
     {
       "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
       "url": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
@@ -192,15 +237,6 @@
       "category": "actualite"
     },
     {
-      "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
-      "summary": "State-sponsored North Korean hackers are likely behind the $290 million crypto-heist that impacted the KelpDAO DeFi project on Saturday. [...]",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T22:23:52+00:00",
-      "source": "BleepingComputer",
-      "category": "apt"
-    },
-    {
       "title": "Vercel Employee's AI Tool Access Led to Data Breach",
       "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
       "summary": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher notes.",
@@ -246,24 +282,6 @@
       "category": "actualite"
     },
     {
-      "title": "How NIST's Cutback of CVE Handling Impacts Cyber Teams",
-      "url": "https://www.darkreading.com/threat-intelligence/nist-cutbacks-nvd-handling-impacts-cyber-teams",
-      "summary": "Industry and ad hoc coalitions appear poised to help fill the gap created by NIST's decision to cut back on CVE data enrichment.",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T19:51:57+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Tycoon 2FA Phishers Scatter, Adopt Device Code Phishing",
-      "url": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
-      "summary": "In embracing device code phishing, attackers trick victims into handing over account access by using a service's legitimate new-device login flow.",
-      "date": "2026-04-17",
-      "date_iso": "2026-04-17T19:05:51+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
       "title": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
       "url": "https://isc.sans.edu/diary/rss/32906",
       "summary": "",
@@ -280,24 +298,6 @@
       "date_iso": "2026-04-17T00:30:27+00:00",
       "source": "SANS ISC",
       "category": "malware"
-    },
-    {
-      "title": "&#x5b;Guest Diary&#x5d; Compromised DVRs and Finding Them in the Wild, (Thu, Apr 16th)",
-      "url": "https://isc.sans.edu/diary/rss/32886",
-      "summary": "&#;x26;#;x5b;This is a Guest Diary by Alec Jaffe, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].",
-      "date": "2026-04-16",
-      "date_iso": "2026-04-16T19:20:29+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, April 16th, 2026 https://isc.sans.edu/podcastdetail/9894, (Thu, Apr 16th)",
-      "url": "https://isc.sans.edu/diary/rss/32902",
-      "summary": "",
-      "date": "2026-04-16",
-      "date_iso": "2026-04-16T02:00:03+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
     },
     {
       "title": "Patch Tuesday, April 2026 Edition",
