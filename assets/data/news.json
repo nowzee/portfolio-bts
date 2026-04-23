@@ -1,7 +1,88 @@
 {
-  "generated_at": "2026-04-23T14:13:26.139854+00:00",
+  "generated_at": "2026-04-23T19:42:15.580255+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-abuses-cloud-tools-spy-mongolia",
+      "summary": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T01:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "apt"
+    },
+    {
+      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
+      "summary": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T19:21:01+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Trigona ransomware attacks use custom exfiltration tool to steal data",
+      "url": "https://www.bleepingcomputer.com/news/security/trigona-ransomware-attacks-use-custom-exfiltration-tool-to-steal-data/",
+      "summary": "Recently observed Trigona ransomware attacks are using a custom, command-line tool to steal data from compromised environments faster and more efficiently. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T18:59:39+00:00",
+      "source": "BleepingComputer",
+      "category": "ransomware"
+    },
+    {
+      "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+      "url": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+      "summary": "A previously undocumented threat activity cluster known as UNC6692 has been observed leveraging social engineering tactics via Microsoft Teams to deploy a custom malware suite on compromised hosts. \"As with many other intrusions in recent…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T18:16:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "url": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "summary": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T16:05:12+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Bad Memories Still Haunt AI Agents",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/bad-memories-haunt-ai-agents",
+      "summary": "Cisco found and fixed a significant vulnerability in the way Anthropic handles memories, but experts warn that mishandled memory files will continue threaten AI systems.",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T14:30:31+00:00",
+      "source": "Dark Reading",
+      "category": "cve"
+    },
+    {
+      "title": "Cosmetics giant Rituals discloses data breach affecting customers",
+      "url": "https://www.bleepingcomputer.com/news/security/cosmetics-giant-rituals-discloses-data-breach-affecting-customers/",
+      "summary": "Dutch cosmetics giant Rituals disclosed a data breach after attackers stole the personal information of an undisclosed number of customers from its \"My Rituals\" membership database. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T14:16:21+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Regular Password Resets Aren’t as Safe as You Think",
+      "url": "https://www.bleepingcomputer.com/news/security/regular-password-resets-arent-as-safe-as-you-think/",
+      "summary": "Password resets are one of the easiest ways for attackers to bypass security controls. Specops Software shows how helpdesk social engineering turns a seemingly legitimate reset request into full account compromise. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T14:10:20+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+      "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+      "summary": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket. \"The affected package version appears to be @bitwarden/cli@2026.4.0, and the…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T13:42:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
     {
       "title": "Microsoft: Some Teams users can’t join meetings after Edge update",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
@@ -9,6 +90,15 @@
       "date": "2026-04-23",
       "date_iso": "2026-04-23T13:18:10+00:00",
       "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+      "summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy. Packages you did not check are…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T13:17:00+00:00",
+      "source": "The Hacker News",
       "category": "actualite"
     },
     {
@@ -45,15 +135,6 @@
       "date": "2026-04-23",
       "date_iso": "2026-04-23T11:30:00+00:00",
       "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
-      "summary": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T11:05:57+00:00",
-      "source": "BleepingComputer",
       "category": "cve"
     },
     {
@@ -120,15 +201,6 @@
       "category": "actualite"
     },
     {
-      "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
-      "url": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
-      "summary": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T20:58:58+00:00",
-      "source": "BleepingComputer",
-      "category": "outil"
-    },
-    {
       "title": "'The Gentlemen' Rapidly Rises to Ransomware Prominence",
       "url": "https://www.darkreading.com/threat-intelligence/gentlemen-rapidly-rise-ransomware",
       "summary": "Not nearly as polite as the name suggests, the ransomware gang has impressed researchers with its speed in scaling up operations — and its sophistication.",
@@ -136,60 +208,6 @@
       "date_iso": "2026-04-22T20:51:55+00:00",
       "source": "Dark Reading",
       "category": "ransomware"
-    },
-    {
-      "title": "New Mirai campaign exploits RCE flaw in EoL D-Link routers",
-      "url": "https://www.bleepingcomputer.com/news/security/new-mirai-campaign-exploits-rce-flaw-in-eol-d-link-routers/",
-      "summary": "A new Mirai-based malware campaign is actively exploiting CVE-2025-29635, a high-severity command-injection vulnerability affecting D-Link DIR-823X routers, to enlist devices into the botnet. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T20:04:46+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
-      "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
-      "url": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
-      "summary": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T18:52:29+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
-      "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
-      "url": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-      "summary": "Cybersecurity researchers have warned of malicious images pushed to the official \"checkmarx/kics\" Docker Hub repository. In an alert published today, software supply chain security company Socket revealed that unknown threat actors…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T17:55:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
-      "url": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-      "summary": "Cybersecurity researchers have flagged a fresh set of packages that have been compromised by bad actors to deliver a self-propagating worm that spreads through stolen developer npm tokens. The supply chain worm has been detected by both…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T17:33:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
-      "url": "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html",
-      "summary": "The threat actor known as Harvester has been attributed to a new Linux version of its GoGra backdoor deployed as part of attacks likely targeting entities in South Asia. \"The malware uses the legitimate Microsoft Graph API and Outlook…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T15:28:00+00:00",
-      "source": "The Hacker News",
-      "category": "apt"
-    },
-    {
-      "title": "Spain dismantles major $4.7M manga piracy platform, arrests four",
-      "url": "https://www.bleepingcomputer.com/news/security/spain-dismantles-major-47m-manga-piracy-platform-arrests-four/",
-      "summary": "The Spanish police have dismantled the largest Spanish-language manga piracy platform, operating since 2014, with millions of monthly users from around the globe. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T15:06:34+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
     },
     {
       "title": "DPRK Fake Job Scams Self-Propagate in 'Contagious Interview'",
@@ -235,24 +253,6 @@
       "date_iso": "2026-04-21T21:12:43+00:00",
       "source": "Dark Reading",
       "category": "ransomware"
-    },
-    {
-      "title": "Exploits Turn Windows Defender Into Attacker Tool",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/exploits-turn-windows-defender-attacker-tool",
-      "summary": "Three proof-of-concept exploits are being used in active attacks against Microsoft's built-in security platform; two are unpatched.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T19:12:40+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Surge in Bomgar RMM Exploitation Demonstrates Supply Chain Risk",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/surge-bomgar-rmm-exploitation-demonstrates-supply-chain-risk",
-      "summary": "The critical remote code execution flaw (CVE-2026-1731) in the remote monitoring and management tool can be exploited to spread ransomware and compromise supply chains.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T15:29:17+00:00",
-      "source": "Dark Reading",
-      "category": "cve"
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
