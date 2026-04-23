@@ -1,7 +1,115 @@
 {
-  "generated_at": "2026-04-23T08:11:52.306945+00:00",
+  "generated_at": "2026-04-23T14:13:26.139854+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft: Some Teams users can’t join meetings after Edge update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-teams-users-cant-join-meetings-after-edge-update/",
+      "summary": "Microsoft confirmed that a recent Microsoft Edge browser update introduced a bug that prevents Windows users from joining Teams meetings. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T13:18:10+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "UK warns of Chinese hackers using proxy networks to evade detection",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
+      "summary": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T12:28:39+00:00",
+      "source": "BleepingComputer",
+      "category": "apt"
+    },
+    {
+      "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
+      "url": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
+      "summary": "A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T12:06:18+00:00",
+      "source": "BleepingComputer",
+      "category": "apt"
+    },
+    {
+      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+      "url": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+      "summary": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly. Well, that world is already here. Thanks to AI, attackers are now launching automated, large-scale exploits faster than ever…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T12:03:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
+      "url": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
+      "summary": "Last week, Anthropic announced Project Glasswing, an AI model so effective at discovering software vulnerabilities that they took the extraordinary step of postponing its public release. Instead, the company has given access to Apple,…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T11:30:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "CISA orders feds to patch BlueHammer flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-microsoft-defender-flaw-exploited-in-zero-day-attacks/",
+      "summary": "CISA has ordered U.S. federal agencies to patch a Microsoft Defender privilege escalation flaw (dubbed BlueHammer) that has been exploited in zero-day attacks. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T11:05:57+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/32922",
+      "summary": "Apple yesterday released iOS/iPadOS 26.4.2 and iOS/iPadOS 18.7.8. This update fixes a single Notification Services vulnerability, CVE-2026-28950:",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T10:18:30+00:00",
+      "source": "SANS ISC",
+      "category": "cve"
+    },
+    {
+      "title": "'Zealot' Shows What AI's Capable of in Staged Cloud Attack",
+      "url": "https://www.darkreading.com/cyber-risk/zealot-shows-ai-execute-full-cloud-attacks",
+      "summary": "The proof of concept revealed AI-based attacks unfold too fast for human defenders to respond, and that AI evinced more autonomous behavior than expected.",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T10:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "url": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "summary": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper. \"The group wields a wide array of tools mostly written in Go, using…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T09:04:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "url": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "summary": "Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal systems. The company said it made the…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T08:40:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
+      "url": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "summary": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described…",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T08:06:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Africa Relinquishes Cyberattack Lead to Latin America — For Now",
+      "url": "https://www.darkreading.com/threat-intelligence/african-organizations-see-easing-of-cyberattacks",
+      "summary": "The volume of cyberattacks targeting Africa declined in the past year, with weekly attacks down 22%, as attackers seemingly shifted their focus to other regions.",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T07:01:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
     {
       "title": "ISC Stormcast For Thursday, April 23rd, 2026 https://isc.sans.edu/podcastdetail/9904, (Thu, Apr 23rd)",
       "url": "https://isc.sans.edu/diary/rss/32920",
@@ -93,85 +201,13 @@
       "category": "malware"
     },
     {
-      "title": "Inside Caller-as-a-Service Fraud: The Scam Economy Has a Hiring Process",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-caller-as-a-service-fraud-the-scam-economy-has-a-hiring-process/",
-      "summary": "Fraud operations now operate like call centers, complete with hiring, training, and performance tracking. Flare reveals how cybercriminals manage \"Caller-as-a-Service\" operations like a professional sales team. [...]",
+      "title": "Electricity Is a Growing Area of Cyber Risk",
+      "url": "https://www.darkreading.com/cyber-risk/electricity-growing-area-cyber-risk",
+      "summary": "IT has long been concerned about ensuring systems receive the right amount of electricity. Cyberattackers are realizing they can manipulate voltage fluctuations for their purposes, too.",
       "date": "2026-04-22",
-      "date_iso": "2026-04-22T14:01:11+00:00",
-      "source": "BleepingComputer",
+      "date_iso": "2026-04-22T14:25:07+00:00",
+      "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "New npm supply-chain attack self-spreads to steal auth tokens",
-      "url": "https://www.bleepingcomputer.com/news/security/new-npm-supply-chain-attack-self-spreads-to-steal-auth-tokens/",
-      "summary": "A new supply chain attack targeting the Node Package Manager (npm) ecosystem is stealing developer credentials and attempting to spread through packages published from compromised accounts. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T12:57:42+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft Teams to get efficiency mode on PCs with limited resources",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-gets-efficiency-mode-for-hardware-constrained-devices/",
-      "summary": "Microsoft is preparing to roll out a new Efficiency Mode for Microsoft Teams for systems with limited CPU and memory resources to improve app responsiveness. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T12:24:38+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
-      "url": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
-      "summary": "Cybersecurity researchers have discovered a previously undocumented data wiper that has been used in attacks targeting Venezuela at the end of last year and the start of 2026. Dubbed Lotus Wiper, the novel file wiper has been used in a…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T10:55:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
-      "url": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
-      "summary": "On January 31, 2026, researchers disclosed that Moltbook, a social network built for AI agents, had left its database wide open, exposing 35,000 email addresses and 1.5 million agent API tokens across 770,000 active agents. The more…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T10:41:36+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft traces Universal Print issues to Graph API code change",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-graph-api-code-change-causes-universal-print-share-issues/",
-      "summary": "Microsoft says that an ongoing Universal Print sharing issue that prevents users from creating some printer shares is due to a Microsoft Graph API code change. [...]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T10:15:09+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
-      "url": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
-      "summary": "Microsoft has released out-of-band updates to address a security vulnerability in ASP.NET Core that could allow an attacker to escalate privileges. The vulnerability, tracked as CVE-2026-40372, carries a CVSS score of 9.1 out of 10.0.…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T09:29:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
-      "url": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
-      "summary": "Cybersecurity researchers have discovered a new variant of a known malware called LOTUSLITE that's distributed via a theme related to India's banking sector. \"The backdoor communicates with a dynamic DNS-based command-and-control server…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T07:58:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
-      "url": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-      "summary": "A critical security vulnerability has been disclosed in a Python-based sandbox called Terrarium that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-5752, is rated 9.3 on the CVSS scoring system. \"Sandbox…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T07:16:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
@@ -219,30 +255,12 @@
       "category": "cve"
     },
     {
-      "title": "Google Fixes Critical RCE Flaw in AI-Based 'Antigravity' Tool",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/google-fixes-critical-rce-flaw-ai-based-antigravity-tool",
-      "summary": "The prompt-injection vulnerability in the agentic AI product for filesystem operations was a sanitization issue that allowed for sandbox escape and arbitrary code execution.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T15:00:50+00:00",
-      "source": "Dark Reading",
-      "category": "cve"
-    },
-    {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message…",
       "date": "2026-04-21",
       "date_iso": "2026-04-21T14:53:59+00:00",
       "source": "Krebs on Security",
-      "category": "actualite"
-    },
-    {
-      "title": "Chinese APT Targets Indian Banks, Korean Policy Circles",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-indian-banks-korean-policy",
-      "summary": "China is spying on India's financial sector, for some reason, and it's not putting much effort into it, judging by some stale TTPs.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T12:00:00+00:00",
-      "source": "Dark Reading",
       "category": "actualite"
     },
     {
@@ -264,15 +282,6 @@
       "category": "actualite"
     },
     {
-      "title": "Vercel Employee's AI Tool Access Led to Data Breach",
-      "url": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
-      "summary": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher notes.",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T21:01:31+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
       "title": "Handling the CVE Flood With EPSS, (Mon, Apr 20th)",
       "url": "https://isc.sans.edu/diary/rss/32914",
       "summary": "Every morning, security people around the world face the same ritual: opening their vulnerability feed to find a lot of new CVE entries that appeared overnight. Over the past decade, this flood has become a defining challenge of modern…",
@@ -291,74 +300,65 @@
       "category": "actualite"
     },
     {
-      "title": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
-      "url": "https://isc.sans.edu/diary/rss/32906",
-      "summary": "",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0452/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la…",
       "date": "2026-04-17",
-      "date_iso": "2026-04-17T02:00:03+00:00",
-      "source": "SANS ISC",
+      "date_iso": "2026-04-17T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans Drupal (16 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0447/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et une injection de code indirecte à distance (XSS).",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (17 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0453/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et une atteinte à…",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0454/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans IBM QRadar (17 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0455/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans IBM QRadar. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "date": "2026-04-17",
+      "date_iso": "2026-04-17T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits Splunk (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0450/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une…",
       "date": "2026-04-16",
       "date_iso": "2026-04-16T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Multiples vulnérabilités dans Google Chrome (16 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0448/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "title": "Multiples vulnérabilités dans les produits Cisco (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0451/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
       "date": "2026-04-16",
       "date_iso": "2026-04-16T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Vulnérabilité dans Apache Kafka (16 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0449/",
-      "summary": "Une vulnérabilité a été découverte dans Apache Kafka. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "title": "Multiples vulnérabilités dans Mattermost Server (16 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0446/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à l'intégrité des données, une injection de requêtes illégitimes par rebond (CSRF) et un…",
       "date": "2026-04-16",
       "date_iso": "2026-04-16T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Microsoft Azure (15 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0444/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Azure. Elles permettent à un attaquant de provoquer une élévation de privilèges.",
-      "date": "2026-04-15",
-      "date_iso": "2026-04-15T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Microsoft (15 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0445/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
-      "date": "2026-04-15",
-      "date_iso": "2026-04-15T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Fortinet (15 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0440/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Fortinet. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
-      "date": "2026-04-15",
-      "date_iso": "2026-04-15T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (15 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0436/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité…",
-      "date": "2026-04-15",
-      "date_iso": "2026-04-15T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     }
