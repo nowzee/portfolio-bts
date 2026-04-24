@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-04-23T19:42:15.580255+00:00",
+  "generated_at": "2026-04-24T03:52:22.000526+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
+      "url": "https://isc.sans.edu/diary/rss/32924",
+      "summary": "",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T02:00:02+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Tropic Trooper APT Takes Aim at Home Routers, Japanese Targets",
+      "url": "https://www.darkreading.com/threat-intelligence/tropic-trooper-apt-takes-aim-home-routers-japanese-targets",
+      "summary": "The Chinese state-sponsored cyber threat is known for moving fast and trying odd attack vectors; now it's branching out in tools, victimology, and TTPs.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T01:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "apt"
+    },
     {
       "title": "Chinese APT Abuses Multiple Cloud Tools to Spy on Mongolia",
       "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-abuses-cloud-tools-spy-mongolia",
@@ -10,6 +28,24 @@
       "date_iso": "2026-04-24T01:00:00+00:00",
       "source": "Dark Reading",
       "category": "apt"
+    },
+    {
+      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
+      "summary": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T21:33:45+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "China-Backed Hackers Are Industrializing Botnets",
+      "url": "https://www.darkreading.com/cyber-risk/china-hackers-industrializing-botnets",
+      "summary": "China's state-backed groups are now using covert networks of compromised devices to execute attacks in a low-cost, low-risk, and deniable way.",
+      "date": "2026-04-23",
+      "date_iso": "2026-04-23T20:52:24+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
     },
     {
       "title": "Bitwarden CLI npm package compromised to steal developer credentials",
@@ -107,15 +143,6 @@
       "summary": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their…",
       "date": "2026-04-23",
       "date_iso": "2026-04-23T12:28:39+00:00",
-      "source": "BleepingComputer",
-      "category": "apt"
-    },
-    {
-      "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
-      "url": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
-      "summary": "A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T12:06:18+00:00",
       "source": "BleepingComputer",
       "category": "apt"
     },
@@ -219,15 +246,6 @@
       "category": "malware"
     },
     {
-      "title": "Electricity Is a Growing Area of Cyber Risk",
-      "url": "https://www.darkreading.com/cyber-risk/electricity-growing-area-cyber-risk",
-      "summary": "IT has long been concerned about ensuring systems receive the right amount of electricity. Cyberattackers are realizing they can manipulate voltage fluctuations for their purposes, too.",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T14:25:07+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
       "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
       "url": "https://isc.sans.edu/diary/rss/32918",
       "summary": "",
@@ -244,15 +262,6 @@
       "date_iso": "2026-04-22T00:03:04+00:00",
       "source": "SANS ISC",
       "category": "actualite"
-    },
-    {
-      "title": "Ransomware Negotiator Pleads Guilty to BlackCat Scheme",
-      "url": "https://www.darkreading.com/insider-threats/ransomware-negotiator-pleads-guilty-blackcat-scheme",
-      "summary": "A cautionary tale illustrates why the person negotiating should never be involved with any part of the ransom payment process.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T21:12:43+00:00",
-      "source": "Dark Reading",
-      "category": "ransomware"
     },
     {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
@@ -289,15 +298,6 @@
       "date_iso": "2026-04-20T06:43:22+00:00",
       "source": "SANS ISC",
       "category": "cve"
-    },
-    {
-      "title": "ISC Stormcast For Monday, April 20th, 2026 https://isc.sans.edu/podcastdetail/9898, (Mon, Apr 20th)",
-      "url": "https://isc.sans.edu/diary/rss/32912",
-      "summary": "",
-      "date": "2026-04-20",
-      "date_iso": "2026-04-20T02:00:03+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
     },
     {
       "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 avril 2026)",
