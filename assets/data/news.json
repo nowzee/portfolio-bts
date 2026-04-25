@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-25T03:33:08.898503+00:00",
+  "generated_at": "2026-04-25T07:46:26.943116+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities (KEV)…",
+      "date": "2026-04-25",
+      "date_iso": "2026-04-25T05:08:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "ADT confirms data breach after ShinyHunters leak threat",
       "url": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
@@ -59,7 +68,7 @@
     {
       "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
       "url": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with…",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has revealed that an unnamed federal civilian agency's Cisco Firepower device running Adaptive Security Appliance (ASA) software was compromised in September 2025 with a new…",
       "date": "2026-04-24",
       "date_iso": "2026-04-24T17:06:00+00:00",
       "source": "The Hacker News",
@@ -217,15 +226,6 @@
       "date_iso": "2026-04-23T14:30:31+00:00",
       "source": "Dark Reading",
       "category": "cve"
-    },
-    {
-      "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-      "url": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-      "summary": "Bitwarden CLI, the command-line interface for the password manager Bitwarden, has reportedly been compromised as part of a newly discovered and ongoing Checkmarx supply chain campaign, according to findings from JFrog and Socket. \"The…",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T13:42:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
     },
     {
       "title": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
