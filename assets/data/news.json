@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-26T13:41:51.025381+00:00",
+  "generated_at": "2026-04-26T19:14:42.913891+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "American utility firm Itron discloses breach of internal IT network",
+      "url": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
+      "summary": "Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [...]",
+      "date": "2026-04-26",
+      "date_iso": "2026-04-26T14:22:34+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
     {
       "title": "Microsoft rolls out revamped Windows Insider Program",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
@@ -82,15 +91,6 @@
       "date_iso": "2026-04-24T18:13:55+00:00",
       "source": "BleepingComputer",
       "category": "actualite"
-    },
-    {
-      "title": "New ‘Pack2TheRoot’ flaw gives hackers root Linux access",
-      "url": "https://www.bleepingcomputer.com/news/security/new-pack2theroot-flaw-gives-hackers-root-linux-access/",
-      "summary": "A new vulnerability dubbed Pack2TheRoot could be exploited in the PackageKit daemon to allow local Linux users to install or remove system packages and gain root permissions. [...]",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T17:28:46+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
     },
     {
       "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
@@ -221,7 +221,7 @@
     {
       "title": "Bad Memories Still Haunt AI Agents",
       "url": "https://www.darkreading.com/vulnerabilities-threats/bad-memories-haunt-ai-agents",
-      "summary": "Cisco found and fixed a significant vulnerability in the way Anthropic handles memories, but experts warn that mishandled memory files will continue threaten AI systems.",
+      "summary": "Cisco found and fixed a significant vulnerability in the way Anthropic handles memories, but experts warn that mishandled memory files will continue to threaten AI systems.",
       "date": "2026-04-23",
       "date_iso": "2026-04-23T14:30:31+00:00",
       "source": "Dark Reading",
