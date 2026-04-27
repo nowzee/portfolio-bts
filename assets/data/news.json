@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-27T04:01:06.303658+00:00",
+  "generated_at": "2026-04-27T08:41:45.165172+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
+      "url": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
+      "summary": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text messages that incur charges on their mobile…",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T06:33:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
     {
       "title": "American utility firm Itron discloses breach of internal IT network",
       "url": "https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/",
@@ -181,15 +190,6 @@
       "date_iso": "2026-04-24T09:29:00+00:00",
       "source": "The Hacker News",
       "category": "outil"
-    },
-    {
-      "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
-      "url": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-      "summary": "A high-severity security flaw in LMDeploy, an open-source toolkit for compressing, deploying, and serving LLMs, has come under active exploitation in the wild less than 13 hours after its public disclosure. The vulnerability, tracked as…",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T07:24:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
