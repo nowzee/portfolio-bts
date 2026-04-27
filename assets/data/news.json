@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T19:14:42.913891+00:00",
+  "generated_at": "2026-04-27T04:01:06.303658+00:00",
   "count": 40,
   "items": [
     {
@@ -55,6 +55,15 @@
       "date_iso": "2026-04-24T22:53:14+00:00",
       "source": "BleepingComputer",
       "category": "ransomware"
+    },
+    {
+      "title": "Helping Romance Scam Victims Require a Proactive, Empathic Approach",
+      "url": "https://www.darkreading.com/cybersecurity-operations/building-teams-to-help-cyber-scam-victims",
+      "summary": "People targeted by confidence schemes find getting help is a lonely road. Experts want law enforcement, financial and government institutions to work together and protect them.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T22:34:13+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
     },
     {
       "title": "Firestarter malware survives Cisco firewall updates, security patches",
@@ -217,15 +226,6 @@
       "date_iso": "2026-04-23T20:52:24+00:00",
       "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "Bad Memories Still Haunt AI Agents",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/bad-memories-haunt-ai-agents",
-      "summary": "Cisco found and fixed a significant vulnerability in the way Anthropic handles memories, but experts warn that mishandled memory files will continue to threaten AI systems.",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T14:30:31+00:00",
-      "source": "Dark Reading",
-      "category": "cve"
     },
     {
       "title": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
