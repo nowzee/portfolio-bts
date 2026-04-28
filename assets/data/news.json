@@ -1,7 +1,142 @@
 {
-  "generated_at": "2026-04-28T08:40:25.423393+00:00",
+  "generated_at": "2026-04-28T19:57:09.984693+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Vidar Rises to Top of Chaotic Infostealer Market",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
+      "summary": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T19:07:16+00:00",
+      "source": "Dark Reading",
+      "category": "malware"
+    },
+    {
+      "title": "Video service Vimeo confirms Anodot breach exposed user data",
+      "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
+      "summary": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T19:04:22+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+      "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+      "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\"…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T18:19:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+      "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+      "summary": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The malware disguises itself as a Minecraft…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T17:39:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "US reportedly charges Scattered Spider hacker arrested in Finland",
+      "url": "https://www.bleepingcomputer.com/news/security/us-reportedly-charges-scattered-spider-hacker-arrested-in-finland/",
+      "summary": "A 19-year-old dual United States and Estonian citizen arrested in Finland earlier this month faces federal charges in the U.S. alleging he was a prolific member of the notorious Scattered Spider hacking collective. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T15:39:52+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
+      "url": "https://www.darkreading.com/application-security/fresh-glassworm-vs-code-extensions-supply-chain",
+      "summary": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T14:59:24+00:00",
+      "source": "Dark Reading",
+      "category": "malware"
+    },
+    {
+      "title": "Checkmarx confirms LAPSUS$ hackers leaked its stolen GitHub data",
+      "url": "https://www.bleepingcomputer.com/news/security/checkmarx-confirms-lapsus-hackers-leaked-its-stolen-github-data/",
+      "summary": "Application security company Checkmarx has confirmed that the LAPSUS$ threat group leaked data stolen from its private GitHub repository. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T14:50:40+00:00",
+      "source": "BleepingComputer",
+      "category": "outil"
+    },
+    {
+      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+      "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
+      "summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T14:01:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
+      "url": "https://isc.sans.edu/diary/rss/32930",
+      "summary": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T13:28:45+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft to deprecate legacy TLS in Exchange Online starting July",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-legacy-tls-in-exchange-online-starting-july/",
+      "summary": "Microsoft says it will start blocking legacy TLS connections for POP and IMAP email clients in Exchange Online starting in July 2026. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T13:18:36+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Inside an OPSEC Playbook: How Threat Actors Evade Detection",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-an-opsec-playbook-how-threat-actors-evade-detection/",
+      "summary": "Threat actors are now publishing structured OPSEC playbooks to stay undetected. Flare reveals how these guides outline layered infrastructure, identity separation, and long-term evasion strategies. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T12:50:58+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+      "url": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+      "summary": "Every security program is betting on the same assumption: once a system is connected, the problem is solved. Open a ticket, stand up a gateway, push the data through. Done. That assumption is wrong. It is also a major reason Zero Trust…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T11:58:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+      "summary": "Cybersecurity researchers have disclosed details of a critical security flaw impacting LeRobot, Hugging Face's open-source robotics platform with nearly 24,000 GitHub stars, that could be exploited to achieve remote code execution. The…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T11:18:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "After Mythos: New Playbooks For a Zero-Window Era",
+      "url": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+      "summary": "When patching isn’t fast enough, NDR helps contain the next era of threats. If you’ve been tracking advancements in AI, you know the exploit window, the short buffer that organizations relied on to patch and protect after a vulnerability…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T10:30:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
+    {
+      "title": "Microsoft: New Remote Desktop warnings may display incorrectly",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-remote-desktop-warnings-may-display-incorrectly/",
+      "summary": "Microsoft has confirmed a new issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T09:51:26+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
     {
       "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
@@ -12,6 +147,15 @@
       "category": "actualite"
     },
     {
+      "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
+      "url": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
+      "summary": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. Xu Zewei, 34, was arrested in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T07:57:00+00:00",
+      "source": "The Hacker News",
+      "category": "apt"
+    },
+    {
       "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
       "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
       "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a…",
@@ -19,15 +163,6 @@
       "date_iso": "2026-04-28T06:37:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
-      "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
-      "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score:…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T05:50:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
@@ -48,15 +183,6 @@
       "category": "actualite"
     },
     {
-      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
-      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
-      "summary": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T21:41:01+00:00",
-      "source": "BleepingComputer",
-      "category": "malware"
-    },
-    {
       "title": "UNC6692 Combines Social Engineering, Malware, Cloud Abuse",
       "url": "https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cloud-abuse",
       "summary": "A newly discovered threat actor is using Microsoft Teams, AWS S3 buckets, and custom \"Snow\" malware in a multipronged campaign.",
@@ -64,33 +190,6 @@
       "date_iso": "2026-04-27T20:12:34+00:00",
       "source": "Dark Reading",
       "category": "apt"
-    },
-    {
-      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
-      "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
-      "summary": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T20:00:31+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
-      "summary": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T19:56:03+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
-      "summary": "The U.S. Federal Trade Commission (FTC) warned of a massive increase in losses from social media scams since 2020, exceeding $2.1 billion in 2025. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T16:27:53+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
     },
     {
       "title": "Unpatched 'PhantomRPC' Flaw in Windows Enables Privilege Escalation",
@@ -102,33 +201,6 @@
       "category": "actualite"
     },
     {
-      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
-      "url": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
-      "summary": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T15:17:37+00:00",
-      "source": "BleepingComputer",
-      "category": "malware"
-    },
-    {
-      "title": "Home security giant ADT data breach affects 5.5 million people",
-      "url": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
-      "summary": "The ShinyHunters extortion group stole the personal information of 5.5 million individuals after breaching the systems of home security giant ADT earlier this month, according to data breach notification service Have I Been Pwned. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T14:43:11+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
-      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
-      "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
-      "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T14:19:00+00:00",
-      "source": "The Hacker News",
-      "category": "outil"
-    },
-    {
       "title": "TeamPCP Supply Chain Campaign: Update 008 - 26-Day Pause Ends with Three Concurrent Compromises (Checkmarx KICS, Bitwarden CLI Cascade, xinference PyPI), CanisterSprawl npm Worm Identified, and Tier 1 Coverage Returns, (Mon, Apr 27th)",
       "url": "https://isc.sans.edu/diary/rss/32926",
       "summary": "This update succeeds&#;x26;#;xc2;&#;x26;#;xa0;TeamPCP Supply Chain Campaign Update 007, published April 8, 2026, which left the campaign in credential-monetization mode following the Cisco source code theft via Trivy-linked credentials,…",
@@ -136,15 +208,6 @@
       "date_iso": "2026-04-27T14:01:17+00:00",
       "source": "SANS ISC",
       "category": "cve"
-    },
-    {
-      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
-      "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
-      "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T13:30:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
     },
     {
       "title": "20-Year-Old Malware Rewrites History of Cyber Sabotage",
@@ -158,46 +221,10 @@
     {
       "title": "Parsing Agentic Offensive Security's Existential Threat",
       "url": "https://www.darkreading.com/cyber-risk/industrialized-exploitation-agentic-offensive-security-existential-threat",
-      "summary": "Some fear frontier LLMs like Claude Mythos and Anthropic's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
+      "summary": "Some fear frontier LLMs like Claude Mythos and OpenAI's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
       "date": "2026-04-27",
       "date_iso": "2026-04-27T13:00:00+00:00",
       "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
-      "url": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
-      "summary": "Anthropic’s Claude Mythos Preview has dominated security discussions since its April 7 announcement. Early reporting describes a powerful cybersecurity-focused AI system capable of identifying vulnerabilities at scale and raising serious…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T11:58:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
-      "url": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
-      "summary": "A pro-Ukrainian hacktivist group called PhantomCore has been attributed to attacks actively targeting servers running TrueConf video conferencing software in Russia since September 2025. That's according to a report published by Positive…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T11:54:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
-      "url": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
-      "summary": "Cybersecurity researchers have flagged dozens of Microsoft Visual Studio Code (VS Code) extensions on the Open VSX repository that are linked to a persistent information-stealing campaign dubbed GlassWorm. The cluster of 73 extensions has…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T11:23:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
-      "url": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
-      "summary": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text messages that incur charges on their mobile…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T06:33:00+00:00",
-      "source": "The Hacker News",
       "category": "actualite"
     },
     {
@@ -215,24 +242,6 @@
       "summary": "Some 29 people were charged, including a Cambodian senator, and authorities seized more than 500 Web domains tied to fake investment sites.",
       "date": "2026-04-24",
       "date_iso": "2026-04-24T16:48:04+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Glasswing Secured the Code. The Rest of Your Stack Is Still on You",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/glasswing-secured-code-stack-on-you",
-      "summary": "Forgotten integrations, shadow IT, SaaS, and now shadow AI and agents are everywhere, and attackers don't need sophisticated AI models to take advantage.",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T15:04:29+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "AI Phishing Is No. 1 With a Bullet for Cyberattackers",
-      "url": "https://www.darkreading.com/cyber-risk/ai-phishing-no-1-cyberattackers",
-      "summary": "In the past six months, companies have seen a significant influx of AI-powered phishing, as cyberattackers progress from small campaigns to 1-to-1 personalized attacks.",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T13:30:00+00:00",
       "source": "Dark Reading",
       "category": "actualite"
     },
@@ -327,39 +336,30 @@
       "category": "actualite"
     },
     {
+      "title": "Multiples vulnérabilités dans Oracle Virtualization (22 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0472/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Oracle Weblogic (22 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0473/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
+      "date": "2026-04-22",
+      "date_iso": "2026-04-22T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
       "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
       "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
       "summary": "A 24-year-old British national and senior member of the cybercrime group \"Scattered Spider\" has pleaded guilty to wire fraud conspiracy and aggravated identity theft. Tyler Robert Buchanan admitted his role in a series of text-message…",
       "date": "2026-04-21",
       "date_iso": "2026-04-21T14:53:59+00:00",
       "source": "Krebs on Security",
-      "category": "actualite"
-    },
-    {
-      "title": "A .WAV With A Payload, (Tue, Apr 21st)",
-      "url": "https://isc.sans.edu/diary/rss/32910",
-      "summary": "There have been reports of threat actors using a .wav file as a vector for malware.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T07:14:56+00:00",
-      "source": "SANS ISC",
-      "category": "malware"
-    },
-    {
-      "title": "Vulnérabilité dans Typo3 (21 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0464/",
-      "summary": "Une vulnérabilité a été découverte dans Typo3. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Vulnérabilité dans Mattermost Server (21 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0465/",
-      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
       "category": "actualite"
     }
   ]
