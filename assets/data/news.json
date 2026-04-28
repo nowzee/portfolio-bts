@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-04-27T19:49:11.398640+00:00",
+  "generated_at": "2026-04-28T04:07:52.197735+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
+      "url": "https://isc.sans.edu/diary/rss/32928",
+      "summary": "",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T02:00:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Robinhood account creation flaw abused to send phishing emails",
+      "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
+      "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T23:11:01+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "GlassWorm malware attacks return via 73 OpenVSX \"sleeper\" extensions",
+      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-attacks-return-via-73-openvsx-sleeper-extensions/",
+      "summary": "A new wave of the Glassworm campaign is targeting the OpenVSX ecosystem with 73 \"sleeper\" extensions that turn malicious after an update. [...]",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T21:41:01+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
+    {
+      "title": "UNC6692 Combines Social Engineering, Malware, Cloud Abuse",
+      "url": "https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cloud-abuse",
+      "summary": "A newly discovered threat actor is using Microsoft Teams, AWS S3 buckets, and custom \"Snow\" malware in a multipronged campaign.",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T20:12:34+00:00",
+      "source": "Dark Reading",
+      "category": "apt"
+    },
+    {
+      "title": "Canada arrests three for operating “SMS blaster” device in Toronto",
+      "url": "https://www.bleepingcomputer.com/news/security/canada-arrests-three-for-operating-sms-blaster-device-in-toronto/",
+      "summary": "Canadian authorities have arrested three men for operating an \"SMS blaster\" device that pretends to be a cellular tower to send phishing texts to nearby phones. [...]",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T20:00:31+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Alleged Silk Typhoon hacker extradited to US for cyberespionage",
+      "url": "https://www.bleepingcomputer.com/news/security/alleged-silk-typhoon-hacker-extradited-to-us-for-cyberespionage/",
+      "summary": "A Chinese national accused of carrying out cyberespionage operations for China's intelligence services has been extradited from Italy to the United States to face criminal charges. [...]",
+      "date": "2026-04-27",
+      "date_iso": "2026-04-27T19:56:03+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
     {
       "title": "FTC: Americans lost over $2.1 billion to social media scams in 2025",
       "url": "https://www.bleepingcomputer.com/news/security/ftc-americans-lost-over-21-billion-to-social-media-scams-in-2025/",
@@ -66,15 +120,6 @@
       "category": "cve"
     },
     {
-      "title": "Medtronic confirms breach after hackers claim 9 million records theft",
-      "url": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
-      "summary": "Medical device giant Medtronic disclosed last week that hackers breached its network and accessed data in \"certain corporate IT systems.\" [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T13:50:42+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
       "url": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
       "summary": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it…",
@@ -93,39 +138,12 @@
       "category": "malware"
     },
     {
-      "title": "Money launderer linked to $230M crypto heist gets 70 months in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/money-launderer-linked-to-230m-crypto-heist-gets-70-months-in-prison/",
-      "summary": "​22-year-old Evan Tangeman of Newport Beach, California, was sentenced to 70 months in prison for laundering funds stolen in a massive $230 million cryptocurrency heist. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T13:01:38+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
-      "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-      "url": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
-      "summary": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T13:00:09+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Parsing Agentic Offensive Security's Existential Threat",
       "url": "https://www.darkreading.com/cyber-risk/industrialized-exploitation-agentic-offensive-security-existential-threat",
       "summary": "Some fear frontier LLMs like Claude Mythos and Anthropic's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
       "date": "2026-04-27",
       "date_iso": "2026-04-27T13:00:00+00:00",
       "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft says Outlook.com outage is causing sign‑in failures",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-outlookcom-outage-is-causing-sign-in-failures/",
-      "summary": "Microsoft is investigating an ongoing Outlook.com outage that is causing intermittent signing issues and preventing customers from accessing their mailboxes. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T12:03:46+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -217,15 +235,6 @@
       "date_iso": "2026-04-24T13:30:00+00:00",
       "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "North Korea's Lazarus Targets macOS Users via ClickFix",
-      "url": "https://www.darkreading.com/threat-intelligence/north-koreas-lazarus-targets-macos-users-clickfix",
-      "summary": "Lazarus continues leveraging ClickFix for initial access and data theft: in this case, against Mac-centric organizations and their high-value leaders.",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T13:00:00+00:00",
-      "source": "Dark Reading",
-      "category": "apt"
     },
     {
       "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
@@ -334,15 +343,6 @@
       "date_iso": "2026-04-21T07:14:56+00:00",
       "source": "SANS ISC",
       "category": "malware"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, April 21st, 2026 https://isc.sans.edu/podcastdetail/9900, (Tue, Apr 21st)",
-      "url": "https://isc.sans.edu/diary/rss/32916",
-      "summary": "",
-      "date": "2026-04-21",
-      "date_iso": "2026-04-21T02:00:02+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
     },
     {
       "title": "Vulnérabilité dans Typo3 (21 avril 2026)",
