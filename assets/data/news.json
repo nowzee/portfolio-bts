@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-04-28T04:07:52.197735+00:00",
+  "generated_at": "2026-04-28T08:40:25.423393+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
+      "summary": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T08:37:12+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+      "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T06:37:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+      "url": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "summary": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score:…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T05:50:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
       "url": "https://isc.sans.edu/diary/rss/32928",
@@ -93,15 +120,6 @@
       "category": "ransomware"
     },
     {
-      "title": "Webinar: Spotting cyberattacks before they begin",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-spotting-cyberattacks-before-they-begin/",
-      "summary": "On Thursday, April 30 at 2:00 PM ET, BleepingComputer will host a live webinar with threat intelligence company Flare and threat intelligence researcher Tammy Harper, exploring how security teams can identify early warning signs of…",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T14:25:35+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
       "url": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
       "summary": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this…",
@@ -181,24 +199,6 @@
       "date_iso": "2026-04-27T06:33:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
-      "url": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
-      "summary": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges. According to a new report…",
-      "date": "2026-04-25",
-      "date_iso": "2026-04-25T09:26:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
-      "url": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known Exploited Vulnerabilities (KEV)…",
-      "date": "2026-04-25",
-      "date_iso": "2026-04-25T05:08:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "Helping Romance Scam Victims Requires a Proactive, Empathic Approach",
