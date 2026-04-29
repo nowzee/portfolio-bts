@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-29T04:03:52.691952+00:00",
+  "generated_at": "2026-04-29T08:34:23.618992+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+      "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug…",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T05:34:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
       "url": "https://isc.sans.edu/diary/rss/32932",
@@ -199,15 +208,6 @@
       "date_iso": "2026-04-28T07:57:00+00:00",
       "source": "The Hacker News",
       "category": "apt"
-    },
-    {
-      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
-      "url": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
-      "summary": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T06:37:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
     },
     {
       "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
