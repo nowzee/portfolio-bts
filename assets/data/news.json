@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-04-29T14:31:46.886135+00:00",
+  "generated_at": "2026-04-29T19:54:57.702767+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "AI Finds 38 Security Flaws in Electronic Health Record Platform",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-finds-38-security-flaws-openemr",
+      "summary": "Flaws in OpenEMR's platform — used by more than 100,000 healthcare providers — enabled database compromise, remote code execution, and data theft.",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T19:32:42+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
+      "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T18:32:15+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, SafeDep, Socket, StepSecurity, and…",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T16:26:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
+      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
+      "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T15:51:44+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Vect 2.0 Ransomware Acts as Wiper, Thanks to Design Error",
+      "url": "https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error",
+      "summary": "The emerging ransomware has been deployed against victims of the TeamPCP supply chain attacks, but organizations should think twice before paying for a decryptor.",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T15:23:53+00:00",
+      "source": "Dark Reading",
+      "category": "ransomware"
+    },
+    {
+      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+      "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@validate-sdk/v2,\"…",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T14:43:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
     {
       "title": "European police dismantles €50 million crypto investment fraud ring",
       "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
@@ -138,15 +192,6 @@
       "category": "ransomware"
     },
     {
-      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T21:07:23+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later",
       "url": "https://www.darkreading.com/cyber-risk/nsa-chief-during-snowden-affair-13-years-later",
       "summary": "Chris Inglis was the head civilian in charge at the NSA when the Snowden leaks exploded. He gets candid about mistakes the organization made, and what CISOs need to know about spotting potential threats, media disclosures, and…",
@@ -174,15 +219,6 @@
       "category": "malware"
     },
     {
-      "title": "Video service Vimeo confirms Anodot breach exposed user data",
-      "url": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
-      "summary": "Vimeo has disclosed that data belonging to some of its customers and users has been accessed without authorization following the recent breach at the Anodot data anomaly detection company. [...]",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T19:04:22+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
       "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
       "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\"…",
@@ -192,15 +228,6 @@
       "category": "cve"
     },
     {
-      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "summary": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The malware disguises itself as a Minecraft…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T17:39:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
       "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
       "url": "https://www.darkreading.com/application-security/fresh-glassworm-vs-code-extensions-supply-chain",
       "summary": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
@@ -208,15 +235,6 @@
       "date_iso": "2026-04-28T14:59:24+00:00",
       "source": "Dark Reading",
       "category": "malware"
-    },
-    {
-      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, and ESXi variants that renders recovery…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T14:01:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
@@ -234,24 +252,6 @@
       "date": "2026-04-28",
       "date_iso": "2026-04-28T02:00:03+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "UNC6692 Combines Social Engineering, Malware, Cloud Abuse",
-      "url": "https://www.darkreading.com/cloud-security/unc6692-social-engineering-malware-cloud-abuse",
-      "summary": "A newly discovered threat actor is using Microsoft Teams, AWS S3 buckets, and custom \"Snow\" malware in a multipronged campaign.",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T20:12:34+00:00",
-      "source": "Dark Reading",
-      "category": "apt"
-    },
-    {
-      "title": "Unpatched 'PhantomRPC' Flaw in Windows Enables Privilege Escalation",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/unpatched-phantomrpc-flaw-windows-privilege-escalation",
-      "summary": "A researcher discovered five different exploit paths that stem from an architectural weakness in how Windows' Remote Procedure Call (RPC) mechanism handles connections to unavailable services.",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T15:31:41+00:00",
-      "source": "Dark Reading",
       "category": "actualite"
     },
     {
