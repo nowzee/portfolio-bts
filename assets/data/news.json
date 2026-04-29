@@ -1,7 +1,61 @@
 {
-  "generated_at": "2026-04-28T19:57:09.984693+00:00",
+  "generated_at": "2026-04-29T04:03:52.691952+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
+      "url": "https://isc.sans.edu/diary/rss/32932",
+      "summary": "",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T02:00:02+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "BlueNoroff Uses Fake Zoom Calls to Turn Victims Into Attack Lures",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/bluenoroff-turns-victims-into-new-attack-lures",
+      "summary": "The North Korean group is using stolen victim videos, AI-generated avatars, and fake Zoom calls to scale malware attacks against cryptocurrency executives.",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T21:38:39+00:00",
+      "source": "Dark Reading",
+      "category": "malware"
+    },
+    {
+      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
+      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
+      "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T21:25:57+00:00",
+      "source": "BleepingComputer",
+      "category": "ransomware"
+    },
+    {
+      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+      "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T21:07:23+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later",
+      "url": "https://www.darkreading.com/cyber-risk/nsa-chief-during-snowden-affair-13-years-later",
+      "summary": "Chris Inglis was the head civilian in charge at the NSA when the Snowden leak exploded. He gets candid about mistakes the organization made, and what CISOs need to know about spotting potential threats, media disclosures, and…",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T20:38:59+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Feuding Ransomware Groups Leak Each Other's Data",
+      "url": "https://www.darkreading.com/threat-intelligence/feuding-ransomware-groups-leak-data",
+      "summary": "When 0APT and KryBit attacked each other, they exposed infrastructure and operational data, giving defenders rare insight into ransomware operations.",
+      "date": "2026-04-28",
+      "date_iso": "2026-04-28T20:13:30+00:00",
+      "source": "Dark Reading",
+      "category": "ransomware"
+    },
     {
       "title": "Vidar Rises to Top of Chaotic Infostealer Market",
       "url": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
@@ -138,15 +192,6 @@
       "category": "actualite"
     },
     {
-      "title": "Microsoft asks iPhone users to reauthenticate after Outlook outage",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-iphone-users-to-re-enter-credentials-after-outlook-outage/",
-      "summary": "After addressing a widespread outage that affected Outlook.com users worldwide on Monday, Microsoft has asked iPhone users to re-enter their credentials to regain access to their Outlook and Hotmail accounts via the default Mail app. [...]",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T08:37:12+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
       "url": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
       "summary": "A Chinese national accused of being a member of the Silk Typhoon hacking group has been extradited to the U.S. from Italy. Xu Zewei, 34, was arrested in July 2025 by Italian authorities for his alleged links to the Chinese state-sponsored…",
@@ -171,15 +216,6 @@
       "date": "2026-04-28",
       "date_iso": "2026-04-28T02:00:03+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "Robinhood account creation flaw abused to send phishing emails",
-      "url": "https://www.bleepingcomputer.com/news/security/robinhood-account-creation-flaw-abused-to-send-phishing-emails/",
-      "summary": "Online trading platform Robinhood's account creation process was exploited by threat actors to inject phishing messages into legitimate emails, tricking users into believing their accounts had suspicious activity. [...]",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T23:11:01+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -219,33 +255,6 @@
       "category": "malware"
     },
     {
-      "title": "Parsing Agentic Offensive Security's Existential Threat",
-      "url": "https://www.darkreading.com/cyber-risk/industrialized-exploitation-agentic-offensive-security-existential-threat",
-      "summary": "Some fear frontier LLMs like Claude Mythos and OpenAI's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
-      "date": "2026-04-27",
-      "date_iso": "2026-04-27T13:00:00+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Helping Romance Scam Victims Requires a Proactive, Empathic Approach",
-      "url": "https://www.darkreading.com/cybersecurity-operations/building-teams-to-help-cyber-scam-victims",
-      "summary": "People targeted by confidence schemes find getting help is a lonely road. Experts want law enforcement, financial, and government institutions to work together and protect them.",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T22:34:13+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "US Busts Myanmar Ring Targeting US Citizens in Financial Fraud",
-      "url": "https://www.darkreading.com/cyber-risk/us-busts-myanmar-ring-targeting-us-citizens-financial-fraud",
-      "summary": "Some 29 people were charged, including a Cambodian senator, and authorities seized more than 500 Web domains tied to fake investment sites.",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T16:48:04+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
       "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
       "url": "https://isc.sans.edu/diary/rss/32924",
       "summary": "",
@@ -278,15 +287,6 @@
       "summary": "",
       "date": "2026-04-22",
       "date_iso": "2026-04-22T02:00:03+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "&#x5b;Guest Diary&#x5d; Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/32888",
-      "summary": "&#;x26;#;x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&#;x26;#;39;s Degree in Applied Cybersecurity (BACS) program &#;x26;#;x5b;1].]",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:03:04+00:00",
       "source": "SANS ISC",
       "category": "actualite"
     },
