@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-04-30T04:05:46.893515+00:00",
+  "generated_at": "2026-04-30T08:36:17.860444+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+      "url": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+      "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T07:07:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "ISC Stormcast For Thursday, April 30th, 2026 https://isc.sans.edu/podcastdetail/9912, (Thu, Apr 30th)",
       "url": "https://isc.sans.edu/diary/rss/32938",
@@ -86,7 +95,7 @@
     {
       "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
       "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, SafeDep, Socket, StepSecurity, and…",
+      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, Onapsis, OX Security, SafeDep,…",
       "date": "2026-04-29",
       "date_iso": "2026-04-29T16:26:00+00:00",
       "source": "The Hacker News",
@@ -185,7 +194,7 @@
     {
       "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
       "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions,…",
+      "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions of…",
       "date": "2026-04-29",
       "date_iso": "2026-04-29T09:37:00+00:00",
       "source": "The Hacker News",
@@ -244,15 +253,6 @@
       "date_iso": "2026-04-28T20:13:30+00:00",
       "source": "Dark Reading",
       "category": "ransomware"
-    },
-    {
-      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
-      "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\"…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T18:19:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
