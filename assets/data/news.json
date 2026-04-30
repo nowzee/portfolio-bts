@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-04-29T19:54:57.702767+00:00",
+  "generated_at": "2026-04-30T04:05:46.893515+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Thursday, April 30th, 2026 https://isc.sans.edu/podcastdetail/9912, (Thu, Apr 30th)",
+      "url": "https://isc.sans.edu/diary/rss/32938",
+      "summary": "",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T02:00:02+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Danger of Libredtail &#x5b;Guest Diary&#x5d;, (Wed, Apr 29th)",
+      "url": "https://isc.sans.edu/diary/rss/32936",
+      "summary": "[This is a Guest Diary by James Roberts, an ISC intern as part of the SANS.edu BACS program]",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T00:07:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "Claude Mythos Fears Startle Japan's Financial Services Sector",
+      "url": "https://www.darkreading.com/cyber-risk/claude-mythos-startle-japans-financial-sector",
+      "summary": "Global financial institutions are panicked over Anthropic's new superhacker AI model. Cyber experts aren't quite as worried.",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T00:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T22:43:44+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T22:13:15+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
+    {
+      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
+      "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T20:50:35+00:00",
+      "source": "BleepingComputer",
+      "category": "outil"
+    },
+    {
+      "title": "Reverse Engineering With AI Unearths High-Severity GitHub Bug",
+      "url": "https://www.darkreading.com/application-security/reverse-engineering-ai-unearths-high-severity-github-bug",
+      "summary": "Wiz used an AI reverse-engineering tool to pinpoint a vulnerability that previously would have been too costly and time-consuming to undertake.",
+      "date": "2026-04-29",
+      "date_iso": "2026-04-29T20:08:17+00:00",
+      "source": "Dark Reading",
+      "category": "cve"
+    },
     {
       "title": "AI Finds 38 Security Flaws in Electronic Health Record Platform",
       "url": "https://www.darkreading.com/vulnerabilities-threats/ai-finds-38-security-flaws-openemr",
@@ -120,15 +183,6 @@
       "category": "cve"
     },
     {
-      "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T10:29:31+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
       "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
       "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions,…",
@@ -145,15 +199,6 @@
       "date_iso": "2026-04-29T08:46:00+00:00",
       "source": "The Hacker News",
       "category": "cve"
-    },
-    {
-      "title": "Microsoft says backend change broke Teams Free chat and calls",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-      "summary": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T08:38:07+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
     },
     {
       "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
@@ -183,15 +228,6 @@
       "category": "malware"
     },
     {
-      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T21:25:57+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
       "title": "NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later",
       "url": "https://www.darkreading.com/cyber-risk/nsa-chief-during-snowden-affair-13-years-later",
       "summary": "Chris Inglis was the head civilian in charge at the NSA when the Snowden leaks exploded. He gets candid about mistakes the organization made, and what CISOs need to know about spotting potential threats, media disclosures, and…",
@@ -210,15 +246,6 @@
       "category": "ransomware"
     },
     {
-      "title": "Vidar Rises to Top of Chaotic Infostealer Market",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
-      "summary": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T19:07:16+00:00",
-      "source": "Dark Reading",
-      "category": "malware"
-    },
-    {
       "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
       "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
       "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code execution with a single \"git push\"…",
@@ -226,15 +253,6 @@
       "date_iso": "2026-04-28T18:19:00+00:00",
       "source": "The Hacker News",
       "category": "cve"
-    },
-    {
-      "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
-      "url": "https://www.darkreading.com/application-security/fresh-glassworm-vs-code-extensions-supply-chain",
-      "summary": "Attackers continue to scale a campaign to seed Open VSX with seemingly benign VS Code extensions that spread self-propagating malware.",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T14:59:24+00:00",
-      "source": "Dark Reading",
-      "category": "malware"
     },
     {
       "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
@@ -269,24 +287,6 @@
       "summary": "",
       "date": "2026-04-24",
       "date_iso": "2026-04-24T02:00:02+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "Apple Patches Exploited Notification Flaw, (Thu, Apr 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/32922",
-      "summary": "Apple yesterday released iOS/iPadOS 26.4.2 and iOS/iPadOS 18.7.8. This update fixes a single Notification Services vulnerability, CVE-2026-28950:",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T10:18:30+00:00",
-      "source": "SANS ISC",
-      "category": "cve"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, April 23rd, 2026 https://isc.sans.edu/podcastdetail/9904, (Thu, Apr 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/32920",
-      "summary": "",
-      "date": "2026-04-23",
-      "date_iso": "2026-04-23T02:00:03+00:00",
       "source": "SANS ISC",
       "category": "actualite"
     },
