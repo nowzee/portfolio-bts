@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-04-30T08:36:17.860444+00:00",
+  "generated_at": "2026-04-30T14:24:52.405460+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks against other network operators in…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T14:04:26+00:00",
+      "source": "Krebs on Security",
+      "category": "malware"
+    },
+    {
+      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+      "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T14:02:12+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+      "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T13:55:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "New Linux ‘Copy Fail’ flaw gives hackers root on major distros",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+      "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root permissions. [...]",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T13:54:47+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "Oracle Red Bull Racing Team Revs Up Automation to Boost Security",
+      "url": "https://www.darkreading.com/identity-access-management-security/oracle-red-bull-racing-team-revs-up-automation-to-boost-security",
+      "summary": "While drivers race to shave off seconds on the track, the team's IT and engineering staff are speeding up how they deliver security.",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T13:45:58+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+      "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+      "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of sensitive information from compromised…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T12:36:00+00:00",
+      "source": "The Hacker News",
+      "category": "malware"
+    },
+    {
+      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+      "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T11:40:31+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
+    {
+      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+      "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+      "summary": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T11:30:00+00:00",
+      "source": "The Hacker News",
+      "category": "outil"
+    },
+    {
+      "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+      "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T11:21:02+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has…",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T09:24:00+00:00",
+      "source": "The Hacker News",
+      "category": "cve"
+    },
     {
       "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
       "url": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
@@ -102,15 +192,6 @@
       "category": "malware"
     },
     {
-      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
-      "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T15:51:44+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "Vect 2.0 Ransomware Acts as Wiper, Thanks to Design Error",
       "url": "https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error",
       "summary": "The emerging ransomware has been deployed against victims of the TeamPCP supply chain attacks, but organizations should think twice before paying for a decryptor.",
@@ -129,30 +210,12 @@
       "category": "malware"
     },
     {
-      "title": "European police dismantles €50 million crypto investment fraud ring",
-      "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
-      "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million) to victims worldwide. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T14:27:36+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "Today's Odd Web Requests, (Wed, Apr 29th)",
       "url": "https://isc.sans.edu/diary/rss/32934",
       "summary": "Today, two different \"new\" requests hit our honeypots. Both appear to be recon requests and not associated with specific vulnerabilities. But as always, please let me know if you have additional information",
       "date": "2026-04-29",
       "date_iso": "2026-04-29T13:11:41+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream customers. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T13:05:14+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -165,15 +228,6 @@
       "category": "malware"
     },
     {
-      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
-      "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T12:41:17+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
       "url": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
       "summary": "In February 2026, researchers uncovered a shift that completely changed the game: threat actors are now using custom AI setups to automate attacks directly into the kill chain. We aren't just talking about AI writing better phishing…",
@@ -181,42 +235,6 @@
       "date_iso": "2026-04-29T12:02:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-      "url": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
-      "summary": "Every security team has a version of the same story. The quarter ends with hundreds of vulnerabilities closed. The dashboards are bursting with green. Then someone in a leadership meeting asks: \"So, are we actually safer now?\" Crickets.…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T11:30:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions of…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T09:37:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
-      "url": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T08:46:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
-      "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-      "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation in the wild within 36 hours of the bug…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T05:34:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
     },
     {
       "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
@@ -244,15 +262,6 @@
       "date_iso": "2026-04-28T20:38:59+00:00",
       "source": "Dark Reading",
       "category": "actualite"
-    },
-    {
-      "title": "Feuding Ransomware Groups Leak Each Other's Data",
-      "url": "https://www.darkreading.com/threat-intelligence/feuding-ransomware-groups-leak-data",
-      "summary": "When 0APT and KryBit attacked each other, they exposed infrastructure and operational data, giving defenders rare insight into ransomware operations.",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T20:13:30+00:00",
-      "source": "Dark Reading",
-      "category": "ransomware"
     },
     {
       "title": "HTTP Requests with X-Vercel-Set-Bypass-Cookie Header, (Tue, Apr 28th)",
@@ -291,74 +300,65 @@
       "category": "actualite"
     },
     {
-      "title": "Vulnérabilité dans les produits Apple (23 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0481/",
-      "summary": "Une vulnérabilité a été découverte dans les produits Apple. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données.",
+      "title": "Multiples vulnérabilités dans Spring Boot (24 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0488/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Spring Boot. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à…",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Vulnérabilité dans les produits Tenable (24 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0489/",
+      "summary": "Une vulnérabilité a été découverte dans les produits Tenable. Elle permet à un attaquant de provoquer une exécution de code arbitraire et une atteinte à l'intégrité des données.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Traefik (24 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0490/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Synology DSM (24 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0491/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité…",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans les produits IBM (24 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0492/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "date": "2026-04-24",
+      "date_iso": "2026-04-24T00:00:00+00:00",
+      "source": "CERT-FR (Avis)",
+      "category": "actualite"
+    },
+    {
+      "title": "Multiples vulnérabilités dans Mattermost Server (23 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0485/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "date": "2026-04-23",
       "date_iso": "2026-04-23T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     },
     {
-      "title": "Vulnérabilité dans CPython (23 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0482/",
-      "summary": "Une vulnérabilité a été découverte dans CPython. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "title": "Multiples vulnérabilités dans les produits Microsoft (23 avril 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0486/",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Microsoft. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "date": "2026-04-23",
       "date_iso": "2026-04-23T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans GitLab (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0475/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une injection de code indirecte à distance (XSS) et une injection…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits NetApp (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0476/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Spring (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0477/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Spring. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, une falsification de requêtes côté serveur (SSRF) et une injection de…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Vulnérabilité dans Microsoft .Net (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0478/",
-      "summary": "Une vulnérabilité a été découverte dans Microsoft .Net. Elle permet à un attaquant de provoquer une élévation de privilèges.",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Atlassian (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0479/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Atlassian. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
-      "source": "CERT-FR (Avis)",
-      "category": "actualite"
-    },
-    {
-      "title": "Multiples vulnérabilités dans les produits Mozilla (22 avril 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0480/",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à…",
-      "date": "2026-04-22",
-      "date_iso": "2026-04-22T00:00:00+00:00",
       "source": "CERT-FR (Avis)",
       "category": "actualite"
     }
