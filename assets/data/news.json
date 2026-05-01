@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-05-01T08:25:29.067402+00:00",
+  "generated_at": "2026-05-01T13:55:21.054502+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
+      "summary": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T12:46:48+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Name That Toon: Mark of (Security) Progress",
+      "url": "https://www.darkreading.com/cybersecurity-operations/name-that-toon-mark-security-progress",
+      "summary": "Feeling creative? Have something to say about the last 20 years of cybersecurity? Our editors will award the best cybersecurity-related caption with a $20 gift card.",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T12:00:55+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "20 Years in Cyber: Dark Reading Marks Milestone With Month of Special Coverage",
+      "url": "https://www.darkreading.com/cybersecurity-operations/20-years-cyber-dark-reading-milestone-special-coverage",
+      "summary": "On this day in 2006, Dark Reading went live. We have a celebration planned that spans our two decades of covering the industry, and you, dear readers, are invited.",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T12:00:00+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
+      "summary": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T11:10:07+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+      "url": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+      "summary": "The managed security services market is projected to grow from $38.31 billion in 2025 to $69.16 billion by 2030[1], with cybersecurity being the fastest-growing sector[2]. Despite this opportunity, many MSPs leave revenue on the table…",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T10:30:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
+    {
+      "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
+      "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for…",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T10:00:53+00:00",
+      "source": "BleepingComputer",
+      "category": "outil"
+    },
+    {
+      "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+      "url": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+      "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the sentencing of two cybersecurity professionals to four years each in prison for their role in facilitating BlackCat ransomware attacks in 2023. Ryan Goldberg, 40, of Georgia,…",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T09:56:00+00:00",
+      "source": "The Hacker News",
+      "category": "ransomware"
+    },
+    {
+      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+      "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+      "summary": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been…",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T09:43:00+00:00",
+      "source": "The Hacker News",
+      "category": "outil"
+    },
     {
       "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
       "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
@@ -102,15 +174,6 @@
       "category": "malware"
     },
     {
-      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
-      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
-      "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T14:02:12+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
       "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
       "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple…",
@@ -118,15 +181,6 @@
       "date_iso": "2026-04-30T13:55:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "New Linux ‘Copy Fail’ flaw gives hackers root on major distros",
-      "url": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
-      "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root permissions. [...]",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T13:54:47+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
     },
     {
       "title": "Oracle Red Bull Racing Team Revs Up Automation to Boost Security",
@@ -147,15 +201,6 @@
       "category": "malware"
     },
     {
-      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
-      "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T11:40:31+00:00",
-      "source": "BleepingComputer",
-      "category": "cve"
-    },
-    {
       "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
       "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
       "summary": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional accounts of enterprise administrators, DevOps…",
@@ -170,15 +215,6 @@
       "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has…",
       "date": "2026-04-30",
       "date_iso": "2026-04-30T09:24:00+00:00",
-      "source": "The Hacker News",
-      "category": "cve"
-    },
-    {
-      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-      "url": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-      "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary…",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T07:07:00+00:00",
       "source": "The Hacker News",
       "category": "cve"
     },
@@ -217,42 +253,6 @@
       "date_iso": "2026-04-29T20:08:17+00:00",
       "source": "Dark Reading",
       "category": "cve"
-    },
-    {
-      "title": "AI Finds 38 Security Flaws in Electronic Health Record Platform",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-finds-38-security-flaws-openemr",
-      "summary": "Flaws in OpenEMR's platform — used by more than 100,000 healthcare providers — enabled database compromise, remote code execution, and data theft.",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T19:32:42+00:00",
-      "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-      "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security, Onapsis, OX Security, SafeDep,…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T16:26:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
-    },
-    {
-      "title": "Vect 2.0 Ransomware Acts as Wiper, Thanks to Design Error",
-      "url": "https://www.darkreading.com/threat-intelligence/vect-ransomware-wiper-design-error",
-      "summary": "The emerging ransomware has been deployed against victims of the TeamPCP supply chain attacks, but organizations should think twice before paying for a decryptor.",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T15:23:53+00:00",
-      "source": "Dark Reading",
-      "category": "ransomware"
-    },
-    {
-      "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-      "url": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
-      "summary": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@validate-sdk/v2,\"…",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T14:43:00+00:00",
-      "source": "The Hacker News",
-      "category": "malware"
     },
     {
       "title": "Today's Odd Web Requests, (Wed, Apr 29th)",
