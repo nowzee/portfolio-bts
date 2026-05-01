@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-04-30T19:50:58.947275+00:00",
+  "generated_at": "2026-05-01T04:19:16.761616+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
+      "url": "https://isc.sans.edu/diary/rss/32940",
+      "summary": "",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T02:00:03+00:00",
+      "source": "SANS ISC",
+      "category": "actualite"
+    },
+    {
+      "title": "TeamPCP Hits SAP Packages With 'Mini Shai-Hulud' Attack",
+      "url": "https://www.darkreading.com/cloud-security/teampcp-sap-packages-mini-shai-hulud",
+      "summary": "Several npm packages for SAP's cloud application development ecosystem have been compromised as TeamPCP's supply chain attacks broaden.",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T21:01:18+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
+    {
+      "title": "Another AI-Assisted Software Scan Yields 9-Year-Old Linux Bug",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/ai-assisted-software-scan-linux-bug",
+      "summary": "The proof-of-concept exploit code runs only 10 lines long, but luckily, a patch is already available.",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T20:41:18+00:00",
+      "source": "Dark Reading",
+      "category": "cve"
+    },
+    {
+      "title": "Anthropic's Mythos Has Landed: Here's What Comes Next for Cyber",
+      "url": "https://www.darkreading.com/cybersecurity-operations/anthropic-mythos-cyber-what-comes-next",
+      "summary": "In this latest installment of the Reporters' Notebook video series, we discuss how the new AI model threatens to completely upend cybersecurity, and what industry leaders are telling the press.",
+      "date": "2026-04-30",
+      "date_iso": "2026-04-30T19:09:21+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
     {
       "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
       "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
@@ -228,39 +264,12 @@
       "category": "actualite"
     },
     {
-      "title": "Lotus Wiper Attack Targets Venezuelan Energy Firms, Utilities",
-      "url": "https://www.darkreading.com/cyber-risk/lotus-wiper-attack-targeted-venezuelan-energy-firms-utilities",
-      "summary": "An analysis of the destructive malware reveals sophisticated living-off-the-land (LotL) techniques and detailed strategies for the widespread deletion of data.",
-      "date": "2026-04-29",
-      "date_iso": "2026-04-29T13:00:00+00:00",
-      "source": "Dark Reading",
-      "category": "malware"
-    },
-    {
       "title": "ISC Stormcast For Wednesday, April 29th, 2026 https://isc.sans.edu/podcastdetail/9910, (Wed, Apr 29th)",
       "url": "https://isc.sans.edu/diary/rss/32932",
       "summary": "",
       "date": "2026-04-29",
       "date_iso": "2026-04-29T02:00:02+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "BlueNoroff Uses Fake Zoom Calls to Turn Victims Into Attack Lures",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/bluenoroff-turns-victims-into-new-attack-lures",
-      "summary": "The North Korean group is using stolen victim videos, AI-generated avatars, and fake Zoom calls to scale malware attacks against cryptocurrency executives.",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T21:38:39+00:00",
-      "source": "Dark Reading",
-      "category": "malware"
-    },
-    {
-      "title": "NSA Chief During Snowden Affair Shares Regrets, Reflections 13 Years Later",
-      "url": "https://www.darkreading.com/cyber-risk/nsa-chief-during-snowden-affair-13-years-later",
-      "summary": "Chris Inglis was the head civilian in charge at the NSA when the Snowden leaks exploded. He gets candid about mistakes the organization made, and what CISOs need to know about spotting potential threats, media disclosures, and…",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T20:38:59+00:00",
-      "source": "Dark Reading",
       "category": "actualite"
     },
     {
@@ -289,15 +298,6 @@
       "date_iso": "2026-04-27T14:01:17+00:00",
       "source": "SANS ISC",
       "category": "cve"
-    },
-    {
-      "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
-      "url": "https://isc.sans.edu/diary/rss/32924",
-      "summary": "",
-      "date": "2026-04-24",
-      "date_iso": "2026-04-24T02:00:02+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
     },
     {
       "title": "Multiples vulnérabilités dans Spring Boot (24 avril 2026)",
