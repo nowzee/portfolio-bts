@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-05-02T13:50:03.813412+00:00",
+  "generated_at": "2026-05-02T19:18:34.318483+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
+      "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
+      "summary": "A new attack type, dubbed ConsentFix v3, has been circulating on hacker forums, building on the previous technique by adding automation and scaling potential. [...]",
+      "date": "2026-05-02",
+      "date_iso": "2026-05-02T14:32:25+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
     {
       "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
       "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
@@ -154,15 +163,6 @@
       "date_iso": "2026-05-01T10:30:00+00:00",
       "source": "The Hacker News",
       "category": "actualite"
-    },
-    {
-      "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
-      "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, and performance improvements for…",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T10:00:53+00:00",
-      "source": "BleepingComputer",
-      "category": "outil"
     },
     {
       "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
