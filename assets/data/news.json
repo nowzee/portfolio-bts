@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-05-02T03:52:25.696974+00:00",
+  "generated_at": "2026-05-02T08:00:29.047547+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+      "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+      "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source code repository and that it began…",
+      "date": "2026-05-02",
+      "date_iso": "2026-05-02T06:41:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
     {
       "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
@@ -226,15 +235,6 @@
       "date_iso": "2026-04-30T14:04:26+00:00",
       "source": "Krebs on Security",
       "category": "malware"
-    },
-    {
-      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-      "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into their private files during a simple…",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T13:55:00+00:00",
-      "source": "The Hacker News",
-      "category": "actualite"
     },
     {
       "title": "Oracle Red Bull Racing Team Revs Up Automation to Boost Security",
