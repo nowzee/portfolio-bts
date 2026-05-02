@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-01T19:40:07.076295+00:00",
+  "generated_at": "2026-05-02T03:52:25.696974+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft tests modern Windows Run, says it's faster than legacy dialog",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-modern-windows-run-says-its-faster-than-legacy-dialog/",
+      "summary": "Microsoft has confirmed that Windows 11 is getting a new modern Run dialog with dark mode support and faster performance in a new preview build. [...]",
+      "date": "2026-05-02",
+      "date_iso": "2026-05-02T00:18:05+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "Edu tech firm Instructure discloses cyber incident, probes impact",
+      "url": "https://www.bleepingcomputer.com/news/security/edu-tech-firm-instructure-discloses-cyber-incident-probes-impact/",
+      "summary": "Instructure, the company behind the widely used Canvas learning platform, has disclosed that it recently suffered a cybersecurity incident and is now investigating its impact. [...]",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T23:43:35+00:00",
+      "source": "BleepingComputer",
+      "category": "actualite"
+    },
+    {
+      "title": "76% of All Crypto Stolen in 2026 Is Now in North Korea",
+      "url": "https://www.darkreading.com/cybersecurity-analytics/crypto-stolen-2026-north-korea",
+      "summary": "North Korean threat actors are pulling off historic cryptocurrency heists on a yearly, sometimes weekly basis now. AI might be helping them.",
+      "date": "2026-05-01",
+      "date_iso": "2026-05-01T20:34:27+00:00",
+      "source": "Dark Reading",
+      "category": "actualite"
+    },
     {
       "title": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
       "url": "https://isc.sans.edu/diary/rss/32942",
@@ -147,15 +174,6 @@
       "category": "outil"
     },
     {
-      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
-      "summary": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T07:47:11+00:00",
-      "source": "BleepingComputer",
-      "category": "ransomware"
-    },
-    {
       "title": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
       "url": "https://isc.sans.edu/diary/rss/32940",
       "summary": "",
@@ -189,15 +207,6 @@
       "date": "2026-04-30",
       "date_iso": "2026-04-30T19:09:21+00:00",
       "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
-      "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
-      "summary": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T18:58:50+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -252,15 +261,6 @@
       "date": "2026-04-30",
       "date_iso": "2026-04-30T00:07:03+00:00",
       "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "Claude Mythos Fears Startle Japan's Financial Services Sector",
-      "url": "https://www.darkreading.com/cyber-risk/claude-mythos-startle-japans-financial-sector",
-      "summary": "Global financial institutions are panicked over Anthropic's new superhacker AI model. Cyber experts aren't quite as worried.",
-      "date": "2026-04-30",
-      "date_iso": "2026-04-30T00:00:00+00:00",
-      "source": "Dark Reading",
       "category": "actualite"
     },
     {
