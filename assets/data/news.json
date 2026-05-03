@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-05-03T13:50:23.251971+00:00",
+  "generated_at": "2026-05-03T19:19:37.950927+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Windows. [...]",
+      "date": "2026-05-03",
+      "date_iso": "2026-05-03T18:11:25+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
+    {
+      "title": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/32944",
+      "summary": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs.",
+      "date": "2026-05-03",
+      "date_iso": "2026-05-03T16:49:04+00:00",
+      "source": "SANS ISC",
+      "category": "outil"
+    },
+    {
+      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
+      "date": "2026-05-03",
+      "date_iso": "2026-05-03T14:11:21+00:00",
+      "source": "BleepingComputer",
+      "category": "malware"
+    },
     {
       "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
       "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
@@ -120,30 +147,12 @@
       "category": "ransomware"
     },
     {
-      "title": "Criminal IP and Securonix ThreatQ Collaborate to Enhance Threat Intelligence Operations",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-and-securonix-threatq-collaborate-to-enhance-threat-intelligence-operations/",
-      "summary": "Raw threat intel isn't enough without real-world context. Criminal IP has partnered with Securonix to integrate exposure-based intelligence into ThreatQ, automating analysis and speeding up investigations. [...]",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T14:02:12+00:00",
-      "source": "BleepingComputer",
-      "category": "actualite"
-    },
-    {
       "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
       "url": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
       "summary": "Cybersecurity researchers have disclosed details of a new China-aligned espionage campaign targeting government and defense sectors across South, East, and Southeast Asia, along with one European government belonging to NATO. Trend Micro…",
       "date": "2026-05-01",
       "date_iso": "2026-05-01T14:02:00+00:00",
       "source": "The Hacker News",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft fixes Remote Desktop warnings displaying incorrectly",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-warnings-displaying-incorrectly/",
-      "summary": "Microsoft has fixed a known issue causing newly introduced Windows security warnings to display incorrectly when opening Remote Desktop (.rdp) files. [...]",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T12:46:48+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
@@ -287,15 +296,6 @@
       "summary": "This weekend, we saw a few requests to our honeypot that included an \"X-Vercel-Set-Bypass-Cookie\" header. A sample request:",
       "date": "2026-04-28",
       "date_iso": "2026-04-28T13:28:45+00:00",
-      "source": "SANS ISC",
-      "category": "actualite"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, April 28th, 2026 https://isc.sans.edu/podcastdetail/9908, (Tue, Apr 28th)",
-      "url": "https://isc.sans.edu/diary/rss/32928",
-      "summary": "",
-      "date": "2026-04-28",
-      "date_iso": "2026-04-28T02:00:03+00:00",
       "source": "SANS ISC",
       "category": "actualite"
     },
