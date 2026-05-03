@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-05-02T19:18:34.318483+00:00",
+  "generated_at": "2026-05-03T04:12:36.759863+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+      "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
+      "date": "2026-05-02",
+      "date_iso": "2026-05-02T21:54:00+00:00",
+      "source": "BleepingComputer",
+      "category": "cve"
+    },
     {
       "title": "ConsentFix v3 attacks target Azure with automated OAuth abuse",
       "url": "https://www.bleepingcomputer.com/news/security/consentfix-v3-attacks-target-azure-with-automated-oauth-abuse/",
@@ -144,15 +153,6 @@
       "date": "2026-05-01",
       "date_iso": "2026-05-01T12:00:00+00:00",
       "source": "Dark Reading",
-      "category": "actualite"
-    },
-    {
-      "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
-      "summary": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T11:10:07+00:00",
-      "source": "BleepingComputer",
       "category": "actualite"
     },
     {
