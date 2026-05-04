@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-05-04T04:11:06.929737+00:00",
+  "generated_at": "2026-05-04T08:42:32.584022+00:00",
   "count": 40,
   "items": [
+    {
+      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
+      "url": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
+      "summary": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of…",
+      "date": "2026-05-04",
+      "date_iso": "2026-05-04T05:59:00+00:00",
+      "source": "The Hacker News",
+      "category": "actualite"
+    },
     {
       "title": "ISC Stormcast For Monday, May 4th, 2026 https://isc.sans.edu/podcastdetail/9916, (Mon, May 4th)",
       "url": "https://isc.sans.edu/diary/rss/32946",
@@ -199,15 +208,6 @@
       "date_iso": "2026-05-01T09:56:00+00:00",
       "source": "The Hacker News",
       "category": "ransomware"
-    },
-    {
-      "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-      "url": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-      "summary": "A new software supply chain attack campaign has been observed using sleeper packages as a conduit to subsequently push malicious payloads that enabled credential theft, GitHub Actions tampering, and SSH persistence. The activity has been…",
-      "date": "2026-05-01",
-      "date_iso": "2026-05-01T09:43:00+00:00",
-      "source": "The Hacker News",
-      "category": "outil"
     },
     {
       "title": "ISC Stormcast For Friday, May 1st, 2026 https://isc.sans.edu/podcastdetail/9914, (Fri, May 1st)",
